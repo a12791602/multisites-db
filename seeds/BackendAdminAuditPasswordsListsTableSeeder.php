@@ -1150,6 +1150,138 @@ class BackendAdminAuditPasswordsListsTableSeeder extends Seeder
                 'created_at' => '2019-05-11 18:52:39',
                 'updated_at' => '2019-05-11 19:00:27',
             ),
+            103 => 
+            array (
+                'id' => 104,
+                'type' => 1,
+                'user_id' => 12,
+                'audit_data' => '$2y$10$ikRHN.zHxHUV1aqqZFSR3eYl20mGp5rFaGGW5RuDHlF1HuRiXPAeS',
+                'status' => 2,
+                'audit_flow_id' => 259,
+                'created_at' => '2019-07-09 14:39:48',
+                'updated_at' => '2019-07-09 14:54:19',
+            ),
+            104 => 
+            array (
+                'id' => 105,
+                'type' => 1,
+                'user_id' => 8,
+                'audit_data' => '$2y$10$wuhfwPvmoKH7281rXaz3kekpJIY64BsSmWq0QZWMI37RmxH3qx7TS',
+                'status' => 1,
+                'audit_flow_id' => 260,
+                'created_at' => '2019-07-09 17:30:30',
+                'updated_at' => '2019-07-09 17:30:41',
+            ),
+            105 => 
+            array (
+                'id' => 106,
+                'type' => 2,
+                'user_id' => 14,
+                'audit_data' => '$2y$10$7k2lrU/mwREZ6RBh/Lvz9u7iweoP8KGqmCUK01dJZ/7JndCqG1XNe',
+                'status' => 1,
+                'audit_flow_id' => 265,
+                'created_at' => '2019-07-15 14:56:42',
+                'updated_at' => '2019-07-15 16:56:06',
+            ),
+            106 => 
+            array (
+                'id' => 107,
+                'type' => 1,
+                'user_id' => 14,
+                'audit_data' => '$2y$10$3JzMrgTBUWOxIgHgNHiggOkmwmYc5Gjql9tFx/X/xOsSijzetpWqi',
+                'status' => 1,
+                'audit_flow_id' => 266,
+                'created_at' => '2019-07-15 14:57:09',
+                'updated_at' => '2019-07-15 16:50:39',
+            ),
+            107 => 
+            array (
+                'id' => 108,
+                'type' => 2,
+                'user_id' => 2,
+                'audit_data' => '$2y$10$6ZfiBVB.dq0pmLUMOYROyuNl7eMH1fEsO78ZQVYjAxMIgB7zv1bqC',
+                'status' => 0,
+                'audit_flow_id' => 267,
+                'created_at' => '2019-07-15 15:00:43',
+                'updated_at' => '2019-07-15 15:00:43',
+            ),
+            108 => 
+            array (
+                'id' => 109,
+                'type' => 1,
+                'user_id' => 15,
+                'audit_data' => '$2y$10$i4/HHb7eWByYoPCai4.HhumSinkpljjF/nWmOjmVtktRv3q4s5OLa',
+                'status' => 0,
+                'audit_flow_id' => 268,
+                'created_at' => '2019-07-15 16:50:06',
+                'updated_at' => '2019-07-15 16:50:06',
+            ),
+            109 => 
+            array (
+                'id' => 110,
+                'type' => 1,
+                'user_id' => 14,
+                'audit_data' => '$2y$10$9wfTO2C6XhNSskPitfeWquzqgIfywQ2nNLbjoHP0QWRqlrXEz.jju',
+                'status' => 1,
+                'audit_flow_id' => 269,
+                'created_at' => '2019-07-15 16:50:58',
+                'updated_at' => '2019-07-16 18:10:06',
+            ),
+            110 => 
+            array (
+                'id' => 111,
+                'type' => 2,
+                'user_id' => 15,
+                'audit_data' => '$2y$10$lJnjDdLedWv215hFJPCZdu7U91Besw0w389s35IqaobD2h0Q4QQza',
+                'status' => 2,
+                'audit_flow_id' => 270,
+                'created_at' => '2019-07-15 16:55:17',
+                'updated_at' => '2019-07-15 16:56:20',
+            ),
+            111 => 
+            array (
+                'id' => 112,
+                'type' => 2,
+                'user_id' => 16,
+                'audit_data' => '$2y$10$Z6O7KEkMOsA2kMFMCj9P8OjBaC.Z6cf3zkqvXqDuHqO46Qdb5ahUO',
+                'status' => 0,
+                'audit_flow_id' => 271,
+                'created_at' => '2019-07-15 16:57:41',
+                'updated_at' => '2019-07-15 16:57:41',
+            ),
+            112 => 
+            array (
+                'id' => 113,
+                'type' => 1,
+                'user_id' => 14,
+                'audit_data' => '$2y$10$XRrTWAmub.cqloJ8PJsFGOKa0MIS.ivcQw4Fe4L4.SJWvnf4xfIVS',
+                'status' => 1,
+                'audit_flow_id' => 272,
+                'created_at' => '2019-07-16 18:12:22',
+                'updated_at' => '2019-07-16 18:12:27',
+            ),
+            113 => 
+            array (
+                'id' => 114,
+                'type' => 1,
+                'user_id' => 19,
+                'audit_data' => '$2y$10$HAKVqo9uRMMU5iLZuvTwNOunTCoDVh.U5/ntEv9Dgck0T2QzsDCty',
+                'status' => 0,
+                'audit_flow_id' => 273,
+                'created_at' => '2019-07-24 12:05:14',
+                'updated_at' => '2019-07-24 12:05:14',
+            ),
+            114 => 
+            array (
+                'id' => 115,
+                'type' => 2,
+                'user_id' => 20,
+                'audit_data' => '$2y$10$lIFXZRXzBnDGkql2dm8tNefigr0aiDwy3UwYwWFq0XO/XbkygxTPe',
+                'status' => 0,
+                'audit_flow_id' => 274,
+                'created_at' => '2019-07-25 15:26:09',
+                'updated_at' => '2019-07-25 15:26:09',
+            ),
         ));
         
         

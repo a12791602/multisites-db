@@ -21,11 +21,12 @@ class BackendAdminRoutesTableSeeder extends Seeder
             array (
                 'id' => 3,
                 'route_name' => 'backend-api.logout',
-                'controller' => NULL,
-                'method' => NULL,
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\BackendAuthController',
+                'method' => 'logout',
                 'menu_group_id' => NULL,
                 'title' => '登出',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
@@ -38,6 +39,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 1,
                 'title' => '获取所有菜单',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:14:34',
             ),
@@ -50,6 +52,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 11,
                 'title' => '获取管理员角色接口',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:29:18',
             ),
@@ -62,6 +65,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 11,
                 'title' => '编辑管理员角色接口',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:29:34',
             ),
@@ -74,6 +78,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 11,
                 'title' => '获取所有管理员接口',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:29:48',
             ),
@@ -86,6 +91,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 11,
                 'title' => '更改目前用户到另外的组',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:30:04',
             ),
@@ -98,6 +104,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 11,
                 'title' => '创建商户用户',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:30:20',
             ),
@@ -110,6 +117,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 11,
                 'title' => '删除管理员账号',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:30:36',
             ),
@@ -122,6 +130,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 11,
                 'title' => '删除管理员组',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:30:44',
             ),
@@ -134,6 +143,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 11,
                 'title' => '更换密码管理员亲自',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:30:52',
             ),
@@ -146,6 +156,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 11,
                 'title' => '获取某组的管理员信息',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:30:59',
             ),
@@ -158,6 +169,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 25,
                 'title' => '创建总代接口',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:33:24',
             ),
@@ -170,6 +182,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 25,
                 'title' => '创建总代时获取平台的最低与最高的奖金组',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:33:35',
             ),
@@ -182,6 +195,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 25,
                 'title' => '用户信息表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:33:51',
             ),
@@ -194,6 +208,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 25,
                 'title' => '申请用户密码功能',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:35:17',
             ),
@@ -206,6 +221,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 25,
                 'title' => '用户密码已申请列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:35:39',
             ),
@@ -218,6 +234,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 25,
                 'title' => '申请用户资金密码功能',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:36:14',
             ),
@@ -230,6 +247,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 25,
                 'title' => '用户资金密码已申请列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:36:35',
             ),
@@ -242,6 +260,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 25,
                 'title' => '给用户审核密码',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:36:57',
             ),
@@ -254,6 +273,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 25,
                 'title' => '给用户审核资金密码',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:37:06',
             ),
@@ -266,6 +286,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 59,
                 'title' => '管理员操作日志列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:42:52',
             ),
@@ -278,6 +299,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 25,
                 'title' => '玩家冻结操作',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:38:08',
             ),
@@ -290,6 +312,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 25,
                 'title' => '玩家被冻结操作历史',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:42:48',
             ),
@@ -302,6 +325,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 1,
                 'title' => '获取当前商户用户的菜单',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:20:53',
             ),
@@ -314,6 +338,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 3,
                 'title' => '获取系统配置',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:21:08',
             ),
@@ -326,6 +351,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 3,
                 'title' => '添加系统配置',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:21:22',
             ),
@@ -338,6 +364,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 12,
                 'title' => '游戏series获取接口',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:25:26',
             ),
@@ -350,6 +377,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 12,
                 'title' => '彩种列表获取接口',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:30:10',
             ),
@@ -362,6 +390,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 3,
                 'title' => '修改系统配置',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:21:36',
             ),
@@ -374,6 +403,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 3,
                 'title' => '删除系统配置',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:21:49',
             ),
@@ -386,6 +416,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 3,
                 'title' => '系统配置开关',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:22:05',
             ),
@@ -398,6 +429,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 12,
                 'title' => '彩种玩法展示接口',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:30:19',
             ),
@@ -410,6 +442,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 61,
                 'title' => '获取省-市-县列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:44:29',
             ),
@@ -422,6 +455,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 61,
                 'title' => '获取镇级行政区',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:44:40',
             ),
@@ -434,6 +468,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 61,
                 'title' => '查询镇级行政区',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:44:52',
             ),
@@ -446,6 +481,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 61,
                 'title' => '添加行政区',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:46:59',
             ),
@@ -458,6 +494,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 61,
                 'title' => '编辑行政区',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:47:10',
             ),
@@ -470,6 +507,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 5,
                 'title' => '添加活动',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:43:00',
             ),
@@ -482,6 +520,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 5,
                 'title' => '编辑活动',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:43:09',
             ),
@@ -494,6 +533,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 5,
                 'title' => '删除活动',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:43:24',
             ),
@@ -506,6 +546,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 5,
                 'title' => '活动列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:43:33',
             ),
@@ -518,6 +559,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 12,
                 'title' => '奖期展示接口',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:30:27',
             ),
@@ -530,6 +572,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 12,
                 'title' => '奖期生成接口',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:31:14',
             ),
@@ -542,6 +585,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 65,
                 'title' => '分类列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:47:03',
             ),
@@ -554,6 +598,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 65,
                 'title' => '文章分类列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 15:47:08',
             ),
@@ -566,6 +611,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 66,
                 'title' => '文章列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:24:29',
             ),
@@ -578,6 +624,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 66,
                 'title' => '发布文章',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:24:45',
             ),
@@ -590,6 +637,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 66,
                 'title' => '编辑文章',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:24:59',
             ),
@@ -602,6 +650,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 66,
                 'title' => '删除文章',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 16:51:45',
             ),
@@ -614,6 +663,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 66,
                 'title' => '文章排序',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 16:53:36',
             ),
@@ -626,6 +676,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 66,
                 'title' => '置顶文章',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 16:53:56',
             ),
@@ -638,6 +689,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 66,
                 'title' => '图片上传',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 16:54:15',
             ),
@@ -650,6 +702,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 69,
                 'title' => '银行列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 16:55:41',
             ),
@@ -662,6 +715,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 69,
                 'title' => '添加银行',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 16:56:08',
             ),
@@ -674,6 +728,7 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 69,
                 'title' => '编辑银行',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:00:49',
             ),
@@ -686,34 +741,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 69,
                 'title' => '删除银行',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:01:18',
             ),
             56 => 
-            array (
-                'id' => 66,
-                'route_name' => 'backend-api.activity.edit-actype',
-                'controller' => NULL,
-                'method' => NULL,
-                'menu_group_id' => 64,
-                'title' => '编辑活动分类',
-                'description' => NULL,
-                'created_at' => NULL,
-                'updated_at' => NULL,
-            ),
-            57 => 
-            array (
-                'id' => 70,
-                'route_name' => 'backend-api.fundOperation.users',
-                'controller' => NULL,
-                'method' => NULL,
-                'menu_group_id' => 66,
-                'title' => '资金操作列表',
-                'description' => NULL,
-                'created_at' => NULL,
-                'updated_at' => NULL,
-            ),
-            58 => 
             array (
                 'id' => 71,
                 'route_name' => 'backend-api.fundOperation.add-fund',
@@ -722,10 +754,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 70,
                 'title' => '增加额度',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:26:17',
             ),
-            59 => 
+            57 => 
             array (
                 'id' => 72,
                 'route_name' => 'backend-api.menu.allRequireInfos',
@@ -734,10 +767,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 81,
                 'title' => '开发管理菜单操作相关需要的数据',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:03:42',
             ),
-            60 => 
+            58 => 
             array (
                 'id' => 73,
                 'route_name' => 'backend-api.menu.changeParent',
@@ -746,10 +780,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 81,
                 'title' => '开发管理拖拽分父级接口',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:03:52',
             ),
-            61 => 
+            59 => 
             array (
                 'id' => 74,
                 'route_name' => 'backend-api.menu.add',
@@ -758,10 +793,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 81,
                 'title' => '开发管理菜单添加接口',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:04:39',
             ),
-            62 => 
+            60 => 
             array (
                 'id' => 75,
                 'route_name' => 'backend-api.fundOperation.admins',
@@ -770,10 +806,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 70,
                 'title' => '资金的操作列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:05:33',
             ),
-            63 => 
+            61 => 
             array (
                 'id' => 76,
                 'route_name' => 'backend-api.fundOperation.add-fund',
@@ -782,10 +819,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 70,
                 'title' => '给管理员增加额度',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:03:08',
             ),
-            64 => 
+            62 => 
             array (
                 'id' => 77,
                 'route_name' => 'backend-api.fundOperation.every-day-fund',
@@ -794,10 +832,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 70,
                 'title' => '设置每日人工充值额度',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:03:23',
             ),
-            65 => 
+            63 => 
             array (
                 'id' => 79,
                 'route_name' => 'backend-api.artificialRecharge.users',
@@ -806,10 +845,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 80,
                 'title' => '人工充值列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:52:13',
             ),
-            66 => 
+            64 => 
             array (
                 'id' => 80,
                 'route_name' => 'backend-api.artificialRecharge.add',
@@ -818,10 +858,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 80,
                 'title' => '给用户人工充值',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:05:01',
             ),
-            67 => 
+            65 => 
             array (
                 'id' => 81,
                 'route_name' => 'backend-api.menu.edit',
@@ -830,10 +871,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 81,
                 'title' => '菜单编辑接口',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:04:50',
             ),
-            68 => 
+            66 => 
             array (
                 'id' => 82,
                 'route_name' => 'backend-api.menu.delete',
@@ -842,10 +884,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 81,
                 'title' => '菜单删除接口',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:05:01',
             ),
-            69 => 
+            67 => 
             array (
                 'id' => 83,
                 'route_name' => 'backend-api.RechargeCheck.detail',
@@ -854,10 +897,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 97,
                 'title' => '充值审核列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:06:25',
             ),
-            70 => 
+            68 => 
             array (
                 'id' => 84,
                 'route_name' => 'backend-api.RechargeCheck.audit-success',
@@ -866,10 +910,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 97,
                 'title' => '充值审核通过',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:59:50',
             ),
-            71 => 
+            69 => 
             array (
                 'id' => 85,
                 'route_name' => 'backend-api.RechargeCheck.audit-failure',
@@ -878,10 +923,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 97,
                 'title' => '充值审核驳回',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:00:34',
             ),
-            72 => 
+            70 => 
             array (
                 'id' => 86,
                 'route_name' => 'backend-api.fundOperation.fund-change-log',
@@ -890,10 +936,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 70,
                 'title' => '查看管理员充值额度记录',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 17:03:37',
             ),
-            73 => 
+            71 => 
             array (
                 'id' => 87,
                 'route_name' => 'backend-api.accountChangeType.detail',
@@ -902,10 +949,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 99,
                 'title' => '帐变类型列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:00:48',
             ),
-            74 => 
+            72 => 
             array (
                 'id' => 88,
                 'route_name' => 'backend-api.accountChangeType.add',
@@ -914,10 +962,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 99,
                 'title' => '添加帐变类型',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:01:19',
             ),
-            75 => 
+            73 => 
             array (
                 'id' => 89,
                 'route_name' => 'backend-api.accountChangeType.edit',
@@ -926,10 +975,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 99,
                 'title' => '编辑帐变类型',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:01:34',
             ),
-            76 => 
+            74 => 
             array (
                 'id' => 90,
                 'route_name' => 'backend-api.accountChangeType.delete',
@@ -938,10 +988,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 99,
                 'title' => '删除帐变类型',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:01:49',
             ),
-            77 => 
+            75 => 
             array (
                 'id' => 91,
                 'route_name' => 'backend-api.route.detail',
@@ -950,10 +1001,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 100,
                 'title' => '路由管理列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:07:02',
             ),
-            78 => 
+            76 => 
             array (
                 'id' => 92,
                 'route_name' => 'backend-api.route.add',
@@ -962,10 +1014,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 100,
                 'title' => '添加路由',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:06:06',
             ),
-            79 => 
+            77 => 
             array (
                 'id' => 93,
                 'route_name' => 'backend-api.route.edit',
@@ -974,10 +1027,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 100,
                 'title' => '编辑路由',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:27:21',
             ),
-            80 => 
+            78 => 
             array (
                 'id' => 94,
                 'route_name' => 'backend-api.route.delete',
@@ -986,10 +1040,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 100,
                 'title' => '删除路由',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => NULL,
                 'updated_at' => '2019-06-04 18:06:18',
             ),
-            81 => 
+            79 => 
             array (
                 'id' => 97,
                 'route_name' => 'backend-api.advertisementType.detail',
@@ -998,10 +1053,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 102,
                 'title' => '获取广告分类列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-17 16:50:08',
                 'updated_at' => '2019-06-04 18:18:12',
             ),
-            82 => 
+            80 => 
             array (
                 'id' => 98,
                 'route_name' => 'backend-api.advertisementType.edit',
@@ -1010,22 +1066,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 102,
                 'title' => '编辑广告类型',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-17 16:50:25',
                 'updated_at' => '2019-06-04 18:18:23',
             ),
-            83 => 
-            array (
-                'id' => 99,
-                'route_name' => 'backend-api.homepage.detail',
-                'controller' => NULL,
-                'method' => NULL,
-                'menu_group_id' => 105,
-                'title' => '主页管理列表',
-                'description' => NULL,
-                'created_at' => '2019-05-20 20:29:13',
-                'updated_at' => '2019-05-20 20:29:13',
-            ),
-            84 => 
+            81 => 
             array (
                 'id' => 100,
                 'route_name' => 'backend-api.homepage.upload-pic',
@@ -1034,10 +1079,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 104,
                 'title' => '上传logo',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-20 21:12:30',
                 'updated_at' => '2019-06-04 17:03:52',
             ),
-            85 => 
+            82 => 
             array (
                 'id' => 101,
                 'route_name' => 'backend-api.homepageRotationChart.detail',
@@ -1046,10 +1092,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 107,
                 'title' => '轮播图列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-22 11:01:25',
                 'updated_at' => '2019-06-04 17:05:59',
             ),
-            86 => 
+            83 => 
             array (
                 'id' => 102,
                 'route_name' => 'backend-api.homepageRotationChart.add',
@@ -1058,10 +1105,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 107,
                 'title' => '添加轮播图',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-22 11:01:52',
                 'updated_at' => '2019-06-04 17:08:32',
             ),
-            87 => 
+            84 => 
             array (
                 'id' => 103,
                 'route_name' => 'backend-api.homepageRotationChart.edit',
@@ -1070,10 +1118,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 107,
                 'title' => '编辑轮播图',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-22 11:02:21',
                 'updated_at' => '2019-06-04 17:08:49',
             ),
-            88 => 
+            85 => 
             array (
                 'id' => 104,
                 'route_name' => 'backend-api.homepageRotationChart.delete',
@@ -1082,10 +1131,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 107,
                 'title' => '删除轮播图',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-22 11:02:41',
                 'updated_at' => '2019-06-04 17:09:07',
             ),
-            89 => 
+            86 => 
             array (
                 'id' => 105,
                 'route_name' => 'backend-api.homepageRotationChart.activity-list',
@@ -1094,10 +1144,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '轮播图选的活动列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-22 11:03:02',
                 'updated_at' => '2019-06-04 17:09:36',
             ),
-            90 => 
+            87 => 
             array (
                 'id' => 106,
                 'route_name' => 'backend-api.homepageRotationChart.sort',
@@ -1106,10 +1157,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 107,
                 'title' => '轮播拖动',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-22 14:24:25',
                 'updated_at' => '2019-06-04 17:09:20',
             ),
-            91 => 
+            88 => 
             array (
                 'id' => 107,
                 'route_name' => 'backend-api.homepage.edit',
@@ -1118,10 +1170,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '编辑主页模块信息',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-22 18:40:28',
                 'updated_at' => '2019-06-04 17:14:18',
             ),
-            92 => 
+            89 => 
             array (
                 'id' => 108,
                 'route_name' => 'backend-api.partnerAdmin.reset-password',
@@ -1130,10 +1183,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 11,
                 'title' => '更改密码',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-23 15:36:37',
                 'updated_at' => '2019-06-04 15:31:08',
             ),
-            93 => 
+            90 => 
             array (
                 'id' => 109,
                 'route_name' => 'backend-api.lotteries.method-group-switch',
@@ -1142,10 +1196,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 14,
                 'title' => '玩法组开关',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-24 16:10:09',
                 'updated_at' => '2019-06-04 17:31:23',
             ),
-            94 => 
+            91 => 
             array (
                 'id' => 110,
                 'route_name' => 'backend-api.frontendAllocatedModel.detail',
@@ -1154,10 +1209,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 111,
                 'title' => '前端模块管理列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-24 17:10:59',
                 'updated_at' => '2019-06-04 18:08:00',
             ),
-            95 => 
+            92 => 
             array (
                 'id' => 111,
                 'route_name' => 'backend-api.frontendAllocatedModel.add',
@@ -1166,10 +1222,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 111,
                 'title' => '添加模块',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-24 17:12:05',
                 'updated_at' => '2019-06-04 18:08:12',
             ),
-            96 => 
+            93 => 
             array (
                 'id' => 112,
                 'route_name' => 'backend-api.frontendAllocatedModel.edit',
@@ -1178,10 +1235,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 111,
                 'title' => '编辑模块',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-24 17:12:38',
                 'updated_at' => '2019-06-04 18:09:08',
             ),
-            97 => 
+            94 => 
             array (
                 'id' => 113,
                 'route_name' => 'backend-api.frontendAllocatedModel.delete',
@@ -1190,10 +1248,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 111,
                 'title' => '删除模块',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-24 17:13:05',
                 'updated_at' => '2019-06-04 18:09:18',
             ),
-            98 => 
+            95 => 
             array (
                 'id' => 114,
                 'route_name' => 'backend-api.popularLotteries.detail-one',
@@ -1202,10 +1261,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '热门彩票一列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-24 17:46:03',
                 'updated_at' => '2019-06-04 17:14:27',
             ),
-            99 => 
+            96 => 
             array (
                 'id' => 115,
                 'route_name' => 'backend-api.popularLotteries.detail-two',
@@ -1214,10 +1274,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '热门彩票二列表 API',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-24 17:46:43',
                 'updated_at' => '2019-06-04 17:14:39',
             ),
-            100 => 
+            97 => 
             array (
                 'id' => 116,
                 'route_name' => 'backend-api.popularLotteries.add',
@@ -1226,10 +1287,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '添加热门彩票API',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-24 17:47:12',
                 'updated_at' => '2019-06-04 17:16:15',
             ),
-            101 => 
+            98 => 
             array (
                 'id' => 117,
                 'route_name' => 'backend-api.popularLotteries.lotteries-list',
@@ -1238,10 +1300,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '添加热门彩票时选择的彩种列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-24 17:47:37',
                 'updated_at' => '2019-06-04 17:16:24',
             ),
-            102 => 
+            99 => 
             array (
                 'id' => 118,
                 'route_name' => 'backend-api.popularLotteries.edit',
@@ -1250,10 +1313,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '编辑热门彩票',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-24 17:48:21',
                 'updated_at' => '2019-06-04 17:16:35',
             ),
-            103 => 
+            100 => 
             array (
                 'id' => 119,
                 'route_name' => 'backend-api.popularLotteries.delete',
@@ -1262,10 +1326,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '删除热门彩票',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-24 17:48:42',
                 'updated_at' => '2019-06-04 17:16:43',
             ),
-            104 => 
+            101 => 
             array (
                 'id' => 120,
                 'route_name' => 'backend-api.popularLotteries.lotteries-sort',
@@ -1274,10 +1339,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '热门彩种排序',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-24 21:34:17',
                 'updated_at' => '2019-06-04 17:16:51',
             ),
-            105 => 
+            102 => 
             array (
                 'id' => 121,
                 'route_name' => 'backend-api.notice.detail',
@@ -1286,10 +1352,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 112,
                 'title' => '公告列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-25 11:31:45',
                 'updated_at' => '2019-06-04 17:19:38',
             ),
-            106 => 
+            103 => 
             array (
                 'id' => 122,
                 'route_name' => 'backend-api.notice.add',
@@ -1298,10 +1365,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 112,
                 'title' => '添加公告',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-25 11:32:32',
                 'updated_at' => '2019-06-04 17:19:43',
             ),
-            107 => 
+            104 => 
             array (
                 'id' => 123,
                 'route_name' => 'backend-api.notice.edit',
@@ -1310,10 +1378,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 112,
                 'title' => '编辑公告',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-25 11:32:54',
                 'updated_at' => '2019-06-04 17:19:51',
             ),
-            108 => 
+            105 => 
             array (
                 'id' => 124,
                 'route_name' => 'backend-api.notice.delete',
@@ -1322,10 +1391,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 112,
                 'title' => '删除公告',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-25 11:33:25',
                 'updated_at' => '2019-06-04 17:20:02',
             ),
-            109 => 
+            106 => 
             array (
                 'id' => 125,
                 'route_name' => 'backend-api.notice.sort',
@@ -1334,10 +1404,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 112,
                 'title' => '公告排序',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-25 11:34:06',
                 'updated_at' => '2019-06-04 17:24:14',
             ),
-            110 => 
+            107 => 
             array (
                 'id' => 126,
                 'route_name' => 'backend-api.homepage.nav-one',
@@ -1346,10 +1417,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 105,
                 'title' => '导航一列表列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-25 14:40:56',
                 'updated_at' => '2019-06-04 17:04:35',
             ),
-            111 => 
+            108 => 
             array (
                 'id' => 127,
                 'route_name' => 'backend-api.homepage.page-model',
@@ -1358,10 +1430,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '主题板块列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-25 14:42:25',
                 'updated_at' => '2019-06-04 17:16:59',
             ),
-            112 => 
+            109 => 
             array (
                 'id' => 128,
                 'route_name' => 'backend-api.userhandle.user_account_change',
@@ -1370,10 +1443,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 27,
                 'title' => '账变记录',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-25 14:51:00',
                 'updated_at' => '2019-06-04 17:43:00',
             ),
-            113 => 
+            110 => 
             array (
                 'id' => 129,
                 'route_name' => 'backend-api.userhandle.user_recharge_history',
@@ -1382,10 +1456,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 27,
                 'title' => '充值记录',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-25 14:51:44',
                 'updated_at' => '2019-06-04 17:43:49',
             ),
-            114 => 
+            111 => 
             array (
                 'id' => 130,
                 'route_name' => 'backend-api.userhandle.deduction_balance',
@@ -1394,10 +1469,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 27,
                 'title' => '扣减',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-25 16:35:12',
                 'updated_at' => '2019-06-04 17:44:03',
             ),
-            115 => 
+            112 => 
             array (
                 'id' => 131,
                 'route_name' => 'backend-api.notice.top',
@@ -1406,10 +1482,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 112,
                 'title' => '公告置顶',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-25 17:39:56',
                 'updated_at' => '2019-06-04 17:25:11',
             ),
-            116 => 
+            113 => 
             array (
                 'id' => 132,
                 'route_name' => 'backend-api.reportManagement.user-account-change',
@@ -1418,10 +1495,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 49,
                 'title' => '用户帐变报表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-28 15:00:30',
                 'updated_at' => '2019-06-04 18:02:40',
             ),
-            117 => 
+            114 => 
             array (
                 'id' => 133,
                 'route_name' => 'backend-api.reportManagement.user-recharge-history',
@@ -1430,10 +1508,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 48,
                 'title' => '充值报表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-28 15:00:52',
                 'updated_at' => '2019-06-04 18:02:26',
             ),
-            118 => 
+            115 => 
             array (
                 'id' => 134,
                 'route_name' => 'backend-api.reportManagement.account_change_type',
@@ -1442,10 +1521,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 49,
                 'title' => '获取所有账变类型',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-28 16:58:38',
                 'updated_at' => '2019-06-04 18:02:57',
             ),
-            119 => 
+            116 => 
             array (
                 'id' => 135,
                 'route_name' => 'backend-api.lotteries.method-row-switch',
@@ -1454,10 +1534,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 14,
                 'title' => '玩法行开关',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-29 14:46:57',
                 'updated_at' => '2019-06-04 17:31:50',
             ),
-            120 => 
+            117 => 
             array (
                 'id' => 136,
                 'route_name' => 'backend-api.lotteries.method-switch',
@@ -1466,10 +1547,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 14,
                 'title' => '切换玩法开关',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-29 14:47:39',
                 'updated_at' => '2019-06-04 17:31:59',
             ),
-            121 => 
+            118 => 
             array (
                 'id' => 137,
                 'route_name' => 'backend-api.frontendWebRoute.detail',
@@ -1478,10 +1560,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 111,
                 'title' => '投注端路由列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-30 11:14:43',
                 'updated_at' => '2019-06-04 18:28:14',
             ),
-            122 => 
+            119 => 
             array (
                 'id' => 138,
                 'route_name' => 'backend-api.frontendAppRoute.detail',
@@ -1490,10 +1573,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 111,
                 'title' => '投注端app路由列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-30 11:15:31',
                 'updated_at' => '2019-06-04 18:10:05',
             ),
-            123 => 
+            120 => 
             array (
                 'id' => 139,
                 'route_name' => 'backend-api.frontendWebRoute.add',
@@ -1502,10 +1586,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 111,
                 'title' => '投注端添加路由web',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-30 11:15:54',
                 'updated_at' => '2019-06-04 18:14:59',
             ),
-            124 => 
+            121 => 
             array (
                 'id' => 140,
                 'route_name' => 'backend-api.frontendAppRoute.add',
@@ -1514,10 +1599,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 111,
                 'title' => '投注端添加路由app',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-30 11:16:20',
                 'updated_at' => '2019-06-04 18:12:12',
             ),
-            125 => 
+            122 => 
             array (
                 'id' => 141,
                 'route_name' => 'backend-api.frontendWebRoute.delete',
@@ -1526,10 +1612,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 111,
                 'title' => '投注端删除路由',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-30 11:16:46',
                 'updated_at' => '2019-06-04 18:12:59',
             ),
-            126 => 
+            123 => 
             array (
                 'id' => 142,
                 'route_name' => 'backend-api.frontendAppRoute.delete',
@@ -1538,10 +1625,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 111,
                 'title' => '投注端删除路由app',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-30 11:17:22',
                 'updated_at' => '2019-06-04 18:13:14',
             ),
-            127 => 
+            124 => 
             array (
                 'id' => 143,
                 'route_name' => 'backend-api.methodLevel.detail',
@@ -1550,10 +1638,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 113,
                 'title' => '玩法等级列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-30 20:44:51',
                 'updated_at' => '2019-06-04 18:16:16',
             ),
-            128 => 
+            125 => 
             array (
                 'id' => 144,
                 'route_name' => 'backend-api.methodLevel.add',
@@ -1562,10 +1651,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 113,
                 'title' => '添加玩法等级',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-30 20:45:21',
                 'updated_at' => '2019-06-04 18:16:28',
             ),
-            129 => 
+            126 => 
             array (
                 'id' => 145,
                 'route_name' => 'backend-api.methodLevel.edit',
@@ -1574,10 +1664,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 113,
                 'title' => '编辑玩法等级',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-30 20:45:38',
                 'updated_at' => '2019-06-04 18:17:17',
             ),
-            130 => 
+            127 => 
             array (
                 'id' => 146,
                 'route_name' => 'backend-api.methodLevel.delete',
@@ -1586,10 +1677,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 113,
                 'title' => '删除玩法等级',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-30 20:45:55',
                 'updated_at' => '2019-06-04 18:17:30',
             ),
-            131 => 
+            128 => 
             array (
                 'id' => 148,
                 'route_name' => 'backend-api.frontendWebRoute.is-open',
@@ -1598,10 +1690,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 111,
                 'title' => 'web路由开放状态改变',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-31 17:55:07',
                 'updated_at' => '2019-06-04 18:14:25',
             ),
-            132 => 
+            129 => 
             array (
                 'id' => 149,
                 'route_name' => 'backend-api.frontendAppRoute.is-open',
@@ -1610,10 +1703,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 111,
                 'title' => 'app路由开放状态改变',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-05-31 17:55:39',
                 'updated_at' => '2019-06-04 18:14:36',
             ),
-            133 => 
+            130 => 
             array (
                 'id' => 150,
                 'route_name' => 'backend-api.homepage.upload-ico',
@@ -1622,10 +1716,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 105,
                 'title' => '添加ico',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-06-03 17:21:19',
                 'updated_at' => '2019-06-04 17:05:49',
             ),
-            134 => 
+            131 => 
             array (
                 'id' => 151,
                 'route_name' => 'backend-api.configures.generate-issue-time',
@@ -1634,10 +1729,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 17,
                 'title' => '奖期生成时间',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-06-03 21:50:52',
                 'updated_at' => '2019-06-04 17:32:36',
             ),
-            135 => 
+            132 => 
             array (
                 'id' => 153,
                 'route_name' => 'backend-api.configures.sys-configure-value',
@@ -1646,10 +1742,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 17,
                 'title' => '生成奖期时间',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-06-04 15:18:24',
                 'updated_at' => '2019-06-04 15:18:24',
             ),
-            136 => 
+            133 => 
             array (
                 'id' => 154,
                 'route_name' => 'backend-api.popularLotteries.detail',
@@ -1658,10 +1755,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '热门彩票列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-06-05 12:03:30',
                 'updated_at' => '2019-06-05 12:03:30',
             ),
-            137 => 
+            134 => 
             array (
                 'id' => 155,
                 'route_name' => 'backend-api.popularMethods.detail',
@@ -1670,10 +1768,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '热门玩法列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-06-05 12:09:22',
                 'updated_at' => '2019-06-05 12:09:22',
             ),
-            138 => 
+            135 => 
             array (
                 'id' => 156,
                 'route_name' => 'backend-api.popularMethods.add',
@@ -1682,10 +1781,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '添加热门玩法',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-06-05 12:09:51',
                 'updated_at' => '2019-06-05 12:09:51',
             ),
-            139 => 
+            136 => 
             array (
                 'id' => 157,
                 'route_name' => 'backend-api.popularMethods.edit',
@@ -1694,10 +1794,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '编辑热门玩法',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-06-05 12:10:28',
                 'updated_at' => '2019-06-05 12:10:28',
             ),
-            140 => 
+            137 => 
             array (
                 'id' => 158,
                 'route_name' => 'backend-api.popularMethods.delete',
@@ -1706,10 +1807,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '删除热门玩法',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-06-05 12:10:51',
                 'updated_at' => '2019-06-05 12:10:51',
             ),
-            141 => 
+            138 => 
             array (
                 'id' => 159,
                 'route_name' => 'backend-api.popularMethods.methods-list',
@@ -1718,10 +1820,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '添加热门玩法时的玩法列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-06-05 13:52:20',
                 'updated_at' => '2019-06-05 13:52:20',
             ),
-            142 => 
+            139 => 
             array (
                 'id' => 160,
                 'route_name' => 'backend-api.popularLotteries.sort',
@@ -1730,10 +1833,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '热门彩票拖动排序',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-06-05 15:08:57',
                 'updated_at' => '2019-06-05 15:08:57',
             ),
-            143 => 
+            140 => 
             array (
                 'id' => 161,
                 'route_name' => 'backend-api.popularMethods.sort',
@@ -1742,10 +1846,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 108,
                 'title' => '热门玩法拖动排序',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-06-05 15:09:42',
                 'updated_at' => '2019-06-05 15:09:42',
             ),
-            144 => 
+            141 => 
             array (
                 'id' => 162,
                 'route_name' => 'backend-api.partnerAdminGroup.create',
@@ -1754,10 +1859,11 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 11,
                 'title' => '创建组',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-06-05 15:52:36',
                 'updated_at' => '2019-06-05 15:52:36',
             ),
-            145 => 
+            142 => 
             array (
                 'id' => 163,
                 'route_name' => 'backend-api.loghandle.frontend-list',
@@ -1766,8 +1872,321 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'menu_group_id' => 114,
                 'title' => '获取前台操作日志列表',
                 'description' => NULL,
+                'is_open' => 0,
                 'created_at' => '2019-06-06 11:57:04',
                 'updated_at' => '2019-06-06 11:57:04',
+            ),
+            143 => 
+            array (
+                'id' => 164,
+                'route_name' => 'backend-api.lotteries.lotteries-code-length',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Game\\Lottery\\LotteriesController',
+                'method' => 'lotteriesCodeLength',
+                'menu_group_id' => 17,
+                'title' => '获取录号规则',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-06-19 21:57:49',
+                'updated_at' => '2019-06-19 21:57:49',
+            ),
+            144 => 
+            array (
+                'id' => 165,
+                'route_name' => 'backend-api.lotteries.input-code',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Game\\Lottery\\LotteriesController',
+                'method' => 'inputCode',
+                'menu_group_id' => 17,
+                'title' => '手动录号',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-06-21 18:58:59',
+                'updated_at' => '2019-06-21 18:58:59',
+            ),
+            145 => 
+            array (
+                'id' => 166,
+                'route_name' => 'backend-api.reportManagement.user-bets',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Report\\reportManagementControlle',
+                'method' => 'userBets',
+                'menu_group_id' => 115,
+                'title' => '玩家注单报表',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-06-26 20:08:04',
+                'updated_at' => '2019-06-26 20:08:04',
+            ),
+            146 => 
+            array (
+                'id' => 167,
+                'route_name' => 'backend-api.route.is-open',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\DeveloperUsage\\Backend\\Routes\\Ro',
+                'method' => 'isOpen',
+                'menu_group_id' => 100,
+                'title' => '修改路由开放状态',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-01 12:37:35',
+                'updated_at' => '2019-07-01 12:37:35',
+            ),
+            147 => 
+            array (
+                'id' => 168,
+                'route_name' => 'backend-api.accountChangeType.param-list',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Users\\Fund\\AccountChangeTypeCont',
+                'method' => 'paramList',
+                'menu_group_id' => 99,
+                'title' => '需要的字段列表',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-03 15:18:26',
+                'updated_at' => '2019-07-03 15:18:26',
+            ),
+            148 => 
+            array (
+                'id' => 169,
+                'route_name' => 'backend-api.loghandle.get-address',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Admin\\Log\\HandleLogController',
+                'method' => 'getAddress',
+                'menu_group_id' => 59,
+                'title' => '查询城市信息',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-04 13:34:59',
+                'updated_at' => '2019-07-04 13:34:59',
+            ),
+            149 => 
+            array (
+                'id' => 170,
+                'route_name' => 'backend-api.lotteries.add',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Game\\Lottery\\LotteriesController',
+                'method' => 'add',
+                'menu_group_id' => 13,
+                'title' => '添加彩种',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-04 21:17:39',
+                'updated_at' => '2019-07-04 21:17:39',
+            ),
+            150 => 
+            array (
+                'id' => 171,
+                'route_name' => 'backend-api.lotteries.edit',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Game\\Lottery\\LotteriesController',
+                'method' => 'edit',
+                'menu_group_id' => 13,
+                'title' => '编辑彩种',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-04 21:18:42',
+                'updated_at' => '2019-07-04 21:18:42',
+            ),
+            151 => 
+            array (
+                'id' => 172,
+                'route_name' => 'backend-api.lotteries.delete',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Game\\Lottery\\LotteriesController',
+                'method' => 'delete',
+                'menu_group_id' => 13,
+                'title' => '删除彩种',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-04 21:19:25',
+                'updated_at' => '2019-07-04 21:19:25',
+            ),
+            152 => 
+            array (
+                'id' => 173,
+                'route_name' => 'backend-api.HelpCenterController.detail',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Admin\\Help\\HelpCenterController',
+                'method' => 'detail',
+                'menu_group_id' => 117,
+                'title' => '获取帮助中心列表',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-05 21:00:56',
+                'updated_at' => '2019-07-05 21:00:56',
+            ),
+            153 => 
+            array (
+                'id' => 174,
+                'route_name' => 'backend-api.HelpCenterController.add',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Admin\\Help\\HelpCenterController',
+                'method' => 'add',
+                'menu_group_id' => 117,
+                'title' => '添加帮助中心',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-05 21:01:16',
+                'updated_at' => '2019-07-05 21:01:16',
+            ),
+            154 => 
+            array (
+                'id' => 175,
+                'route_name' => 'backend-api.HelpCenterController.edit',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Admin\\Help\\HelpCenterController',
+                'method' => 'edit',
+                'menu_group_id' => 117,
+                'title' => '编辑帮助中心',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-05 21:01:42',
+                'updated_at' => '2019-07-05 21:01:42',
+            ),
+            155 => 
+            array (
+                'id' => 176,
+                'route_name' => 'backend-api.HelpCenterController.delete',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Admin\\Help\\HelpCenterController',
+                'method' => 'delete',
+                'menu_group_id' => 117,
+                'title' => '删除帮助中心',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-05 21:02:09',
+                'updated_at' => '2019-07-05 21:02:09',
+            ),
+            156 => 
+            array (
+                'id' => 177,
+                'route_name' => 'backend-api.lotteries.calculate-encode-again',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Game\\Lottery\\LotteriesController',
+                'method' => 'CalculateEncodeAgain',
+                'menu_group_id' => 17,
+                'title' => '再次派奖',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-06 14:22:34',
+                'updated_at' => '2019-07-06 14:22:34',
+            ),
+            157 => 
+            array (
+                'id' => 178,
+                'route_name' => 'backend-api.HelpCenterController.upload',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Admin\\Help\\HelpCenterController',
+                'method' => 'uploadPic',
+                'menu_group_id' => 117,
+                'title' => '帮助中心，上传图片',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-08 17:55:18',
+                'updated_at' => '2019-07-08 17:55:18',
+            ),
+            158 => 
+            array (
+                'id' => 179,
+                'route_name' => 'backend-api.SystemController.upload',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\System\\SystemController',
+                'method' => 'uploadPic',
+                'menu_group_id' => 117,
+                'title' => '帮助中心上传图片',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-09 19:10:06',
+                'updated_at' => '2019-07-09 19:10:06',
+            ),
+            159 => 
+            array (
+                'id' => 180,
+                'route_name' => 'backend-api.lotteries.lotteries-switch',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Game\\Lottery\\LotteriesController',
+                'method' => 'lotteriesSwitch',
+                'menu_group_id' => 14,
+                'title' => '彩种开关',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-16 13:46:56',
+                'updated_at' => '2019-07-16 13:46:56',
+            ),
+            160 => 
+            array (
+                'id' => 181,
+                'route_name' => 'backend-api.lottery-notice.detail',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Admin\\Homepage\\LotteryNoticeCont',
+                'method' => 'detail',
+                'menu_group_id' => 108,
+                'title' => '开奖公告',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-27 14:25:30',
+                'updated_at' => '2019-07-27 14:25:30',
+            ),
+            161 => 
+            array (
+                'id' => 186,
+                'route_name' => 'backend-api.lottery-notice.edit',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Admin\\Homepage\\LotteryNoticeCont',
+                'method' => 'edit',
+                'menu_group_id' => 108,
+                'title' => '编辑开奖公告',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-27 17:16:31',
+                'updated_at' => '2019-07-27 17:16:31',
+            ),
+            162 => 
+            array (
+                'id' => 187,
+                'route_name' => 'backend-api.lottery-notice.add',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Admin\\Homepage\\LotteryNoticeCont',
+                'method' => 'add',
+                'menu_group_id' => 108,
+                'title' => '添加开奖公告',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-27 17:37:04',
+                'updated_at' => '2019-07-27 17:37:04',
+            ),
+            163 => 
+            array (
+                'id' => 188,
+                'route_name' => 'backend-api.lottery-notice.delete',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Admin\\Homepage\\LotteryNoticeCont',
+                'method' => 'delete',
+                'menu_group_id' => 108,
+                'title' => '删除开奖公告',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-27 17:53:46',
+                'updated_at' => '2019-07-27 17:53:46',
+            ),
+            164 => 
+            array (
+                'id' => 189,
+                'route_name' => 'backend-api.lottery-notice.sort',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Admin\\Homepage\\LotteryNoticeCont',
+                'method' => 'sort',
+                'menu_group_id' => 108,
+                'title' => '开奖公告排序',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-27 19:02:01',
+                'updated_at' => '2019-07-27 19:02:01',
+            ),
+            165 => 
+            array (
+                'id' => 190,
+                'route_name' => 'backend-api.userhandle.bank-card-list',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Users\\UserHandleController',
+                'method' => 'bankCardList',
+                'menu_group_id' => 40,
+                'title' => '银行卡管理',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-29 20:39:02',
+                'updated_at' => '2019-07-29 20:39:02',
+            ),
+            166 => 
+            array (
+                'id' => 191,
+                'route_name' => 'backend-api.SystemController.upload-pic',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\System\\SystemController',
+                'method' => 'uploadPic',
+                'menu_group_id' => 13,
+                'title' => '上传图片',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-07-30 18:21:33',
+                'updated_at' => '2019-07-30 18:21:33',
             ),
         ));
         

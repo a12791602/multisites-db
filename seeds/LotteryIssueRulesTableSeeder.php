@@ -385,6 +385,38 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'created_at' => '2019-04-29 15:22:15',
                 'updated_at' => NULL,
             ),
+            23 => 
+            array (
+                'id' => 35,
+                'lottery_id' => 'csssc666',
+                'lottery_name' => '测试时时彩666',
+                'begin_time' => '00:00:00',
+                'end_time' => '00:00:00',
+                'issue_seconds' => 60,
+                'first_time' => '00:00:00',
+                'adjust_time' => 0,
+                'encode_time' => 0,
+                'issue_count' => 1440,
+                'status' => 0,
+                'created_at' => '2019-07-16 14:51:54',
+                'updated_at' => '2019-07-16 14:51:54',
+            ),
+            24 => 
+            array (
+                'id' => 36,
+                'lottery_id' => 'enenrnj',
+                'lottery_name' => 'asdiuasduybiy',
+                'begin_time' => '16:48:34',
+                'end_time' => '16:50:35',
+                'issue_seconds' => 1,
+                'first_time' => '16:50:33',
+                'adjust_time' => 11,
+                'encode_time' => 11,
+                'issue_count' => 11,
+                'status' => 0,
+                'created_at' => '2019-07-18 16:49:24',
+                'updated_at' => '2019-07-18 16:49:24',
+            ),
         ));
         
         

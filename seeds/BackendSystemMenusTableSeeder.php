@@ -140,7 +140,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'display' => 1,
                 'level' => 2,
                 'sort' => 2,
-                'updated_at' => NULL,
+                'updated_at' => '2019-07-11 15:29:04',
                 'created_at' => NULL,
             ),
             9 => 
@@ -346,11 +346,11 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'en_name' => 'passport.check',
                 'route' => '/manage/passport-check',
                 'pid' => 25,
-                'icon' => 'null',
+                'icon' => NULL,
                 'display' => 1,
                 'level' => 2,
                 'sort' => 4,
-                'updated_at' => NULL,
+                'updated_at' => '2019-07-29 20:03:04',
                 'created_at' => NULL,
             ),
             24 => 
@@ -455,14 +455,14 @@ class BackendSystemMenusTableSeeder extends Seeder
             array (
                 'id' => 40,
                 'label' => '银行卡',
-                'en_name' => NULL,
-                'route' => '#',
+                'en_name' => 'bank.check',
+                'route' => '/manage/manage-bank',
                 'pid' => 25,
                 'icon' => NULL,
-                'display' => 0,
+                'display' => 1,
                 'level' => 2,
                 'sort' => 12,
-                'updated_at' => NULL,
+                'updated_at' => '2019-07-29 20:31:31',
                 'created_at' => NULL,
             ),
             32 => 
@@ -579,132 +579,6 @@ class BackendSystemMenusTableSeeder extends Seeder
             ),
             40 => 
             array (
-                'id' => 50,
-                'label' => '日工资报表',
-                'en_name' => NULL,
-                'route' => '#',
-                'pid' => 47,
-                'icon' => NULL,
-                'display' => 1,
-                'level' => 2,
-                'sort' => 3,
-                'updated_at' => NULL,
-                'created_at' => NULL,
-            ),
-            41 => 
-            array (
-                'id' => 51,
-                'label' => '盈亏报表查询',
-                'en_name' => NULL,
-                'route' => '#',
-                'pid' => 47,
-                'icon' => NULL,
-                'display' => 1,
-                'level' => 2,
-                'sort' => 4,
-                'updated_at' => NULL,
-                'created_at' => NULL,
-            ),
-            42 => 
-            array (
-                'id' => 52,
-                'label' => '用户佣金',
-                'en_name' => NULL,
-                'route' => '#',
-                'pid' => 47,
-                'icon' => NULL,
-                'display' => 1,
-                'level' => 2,
-                'sort' => 5,
-                'updated_at' => NULL,
-                'created_at' => NULL,
-            ),
-            43 => 
-            array (
-                'id' => 53,
-                'label' => '手动充值记录',
-                'en_name' => NULL,
-                'route' => '#',
-                'pid' => 47,
-                'icon' => NULL,
-                'display' => 1,
-                'level' => 2,
-                'sort' => 6,
-                'updated_at' => NULL,
-                'created_at' => NULL,
-            ),
-            44 => 
-            array (
-                'id' => 54,
-                'label' => '用户彩种盈亏记录',
-                'en_name' => NULL,
-                'route' => '#',
-                'pid' => 47,
-                'icon' => NULL,
-                'display' => 1,
-                'level' => 2,
-                'sort' => 7,
-                'updated_at' => NULL,
-                'created_at' => NULL,
-            ),
-            45 => 
-            array (
-                'id' => 55,
-                'label' => '提现记录',
-                'en_name' => NULL,
-                'route' => '#',
-                'pid' => 47,
-                'icon' => NULL,
-                'display' => 1,
-                'level' => 2,
-                'sort' => 8,
-                'updated_at' => NULL,
-                'created_at' => NULL,
-            ),
-            46 => 
-            array (
-                'id' => 56,
-                'label' => '异常充值记录',
-                'en_name' => NULL,
-                'route' => '#',
-                'pid' => 47,
-                'icon' => NULL,
-                'display' => 1,
-                'level' => 2,
-                'sort' => 9,
-                'updated_at' => NULL,
-                'created_at' => NULL,
-            ),
-            47 => 
-            array (
-                'id' => 57,
-                'label' => '盈亏记录',
-                'en_name' => NULL,
-                'route' => '#',
-                'pid' => 47,
-                'icon' => NULL,
-                'display' => 1,
-                'level' => 2,
-                'sort' => 10,
-                'updated_at' => NULL,
-                'created_at' => NULL,
-            ),
-            48 => 
-            array (
-                'id' => 58,
-                'label' => '单期盈亏记录',
-                'en_name' => NULL,
-                'route' => '#',
-                'pid' => 47,
-                'icon' => NULL,
-                'display' => 1,
-                'level' => 2,
-                'sort' => 11,
-                'updated_at' => NULL,
-                'created_at' => NULL,
-            ),
-            49 => 
-            array (
                 'id' => 59,
                 'label' => '操作日志',
                 'en_name' => 'operation.log',
@@ -717,7 +591,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'created_at' => NULL,
             ),
-            50 => 
+            41 => 
             array (
                 'id' => 60,
                 'label' => '账号冻结设置',
@@ -731,7 +605,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'created_at' => NULL,
             ),
-            51 => 
+            42 => 
             array (
                 'id' => 61,
                 'label' => '省市地区列表',
@@ -745,7 +619,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'created_at' => NULL,
             ),
-            52 => 
+            43 => 
             array (
                 'id' => 64,
                 'label' => '活动管理',
@@ -759,7 +633,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => '2019-06-06 11:40:00',
                 'created_at' => NULL,
             ),
-            53 => 
+            44 => 
             array (
                 'id' => 65,
                 'label' => '分类管理',
@@ -773,7 +647,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'created_at' => NULL,
             ),
-            54 => 
+            45 => 
             array (
                 'id' => 66,
                 'label' => '文章管理',
@@ -787,7 +661,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'created_at' => NULL,
             ),
-            55 => 
+            46 => 
             array (
                 'id' => 69,
                 'label' => '银行管理',
@@ -801,7 +675,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'created_at' => NULL,
             ),
-            56 => 
+            47 => 
             array (
                 'id' => 70,
                 'label' => '额度管理',
@@ -815,7 +689,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'created_at' => NULL,
             ),
-            57 => 
+            48 => 
             array (
                 'id' => 73,
                 'label' => '资金操作',
@@ -829,7 +703,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'created_at' => NULL,
             ),
-            58 => 
+            49 => 
             array (
                 'id' => 79,
                 'label' => '资金管理',
@@ -843,7 +717,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'created_at' => NULL,
             ),
-            59 => 
+            50 => 
             array (
                 'id' => 80,
                 'label' => '人工充值',
@@ -857,7 +731,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => '2019-05-30 10:24:33',
                 'created_at' => NULL,
             ),
-            60 => 
+            51 => 
             array (
                 'id' => 81,
                 'label' => '开发管理',
@@ -871,7 +745,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => '2019-05-11 10:48:47',
                 'created_at' => NULL,
             ),
-            61 => 
+            52 => 
             array (
                 'id' => 82,
                 'label' => '商户端菜单管理',
@@ -885,7 +759,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => '2019-05-24 14:57:15',
                 'created_at' => NULL,
             ),
-            62 => 
+            53 => 
             array (
                 'id' => 97,
                 'label' => '充值审核',
@@ -899,7 +773,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'created_at' => NULL,
             ),
-            63 => 
+            54 => 
             array (
                 'id' => 98,
                 'label' => '拖拽',
@@ -913,7 +787,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => '2019-05-30 10:26:23',
                 'created_at' => '2019-05-08 15:58:54',
             ),
-            64 => 
+            55 => 
             array (
                 'id' => 99,
                 'label' => '账变类型',
@@ -927,7 +801,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => '2019-05-09 17:38:35',
                 'created_at' => '2019-05-09 17:38:35',
             ),
-            65 => 
+            56 => 
             array (
                 'id' => 100,
                 'label' => '路由管理',
@@ -938,10 +812,10 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'display' => 0,
                 'level' => 2,
                 'sort' => 3,
-                'updated_at' => '2019-05-11 16:10:11',
+                'updated_at' => '2019-07-11 18:23:52',
                 'created_at' => '2019-05-09 17:48:16',
             ),
-            66 => 
+            57 => 
             array (
                 'id' => 101,
                 'label' => '广告',
@@ -955,7 +829,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => '2019-05-16 21:55:16',
                 'created_at' => '2019-05-16 21:55:16',
             ),
-            67 => 
+            58 => 
             array (
                 'id' => 102,
                 'label' => '广告类型',
@@ -969,7 +843,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => '2019-05-16 22:02:27',
                 'created_at' => '2019-05-16 22:02:27',
             ),
-            68 => 
+            59 => 
             array (
                 'id' => 103,
                 'label' => '主页管理',
@@ -983,7 +857,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => '2019-05-17 11:03:35',
                 'created_at' => '2019-05-17 11:03:35',
             ),
-            69 => 
+            60 => 
             array (
                 'id' => 104,
                 'label' => '图标',
@@ -994,10 +868,10 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'display' => 0,
                 'level' => 3,
                 'sort' => 1,
-                'updated_at' => '2019-05-30 10:23:31',
+                'updated_at' => '2019-07-11 18:34:37',
                 'created_at' => '2019-05-17 11:05:53',
             ),
-            70 => 
+            61 => 
             array (
                 'id' => 105,
                 'label' => '一级导航',
@@ -1011,7 +885,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => '2019-05-17 11:08:33',
                 'created_at' => '2019-05-17 11:08:33',
             ),
-            71 => 
+            62 => 
             array (
                 'id' => 106,
                 'label' => '二级导航',
@@ -1019,13 +893,13 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'route' => '/operasyon/nav-two',
                 'pid' => 103,
                 'icon' => NULL,
-                'display' => 0,
+                'display' => 1,
                 'level' => 3,
                 'sort' => 2,
-                'updated_at' => '2019-05-30 10:23:14',
+                'updated_at' => '2019-07-11 18:33:21',
                 'created_at' => '2019-05-17 11:09:45',
             ),
-            72 => 
+            63 => 
             array (
                 'id' => 107,
                 'label' => '轮播图',
@@ -1033,13 +907,13 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'route' => '/operasyon/bannar',
                 'pid' => 103,
                 'icon' => NULL,
-                'display' => 1,
+                'display' => 0,
                 'level' => 3,
                 'sort' => 4,
-                'updated_at' => '2019-05-17 11:10:43',
+                'updated_at' => '2019-07-11 18:33:30',
                 'created_at' => '2019-05-17 11:10:43',
             ),
-            73 => 
+            64 => 
             array (
                 'id' => 108,
                 'label' => '主题板块',
@@ -1053,7 +927,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => '2019-05-17 11:11:58',
                 'created_at' => '2019-05-17 11:11:58',
             ),
-            74 => 
+            65 => 
             array (
                 'id' => 109,
                 'label' => '页脚一',
@@ -1067,7 +941,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => '2019-05-30 10:23:16',
                 'created_at' => '2019-05-17 11:13:36',
             ),
-            75 => 
+            66 => 
             array (
                 'id' => 110,
                 'label' => '页脚2',
@@ -1081,7 +955,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => '2019-05-30 10:23:18',
                 'created_at' => '2019-05-17 11:14:09',
             ),
-            76 => 
+            67 => 
             array (
                 'id' => 111,
                 'label' => '投注端菜单管理',
@@ -1095,7 +969,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => '2019-05-24 14:58:21',
                 'created_at' => '2019-05-24 14:56:44',
             ),
-            77 => 
+            68 => 
             array (
                 'id' => 112,
                 'label' => '公告管理',
@@ -1109,7 +983,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => '2019-05-25 10:56:13',
                 'created_at' => '2019-05-25 10:46:09',
             ),
-            78 => 
+            69 => 
             array (
                 'id' => 113,
                 'label' => '玩法等级管理',
@@ -1123,7 +997,7 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => '2019-05-30 20:42:45',
                 'created_at' => '2019-05-30 20:42:45',
             ),
-            79 => 
+            70 => 
             array (
                 'id' => 114,
                 'label' => '前台操作日志',
@@ -1136,6 +1010,34 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'sort' => 9,
                 'updated_at' => '2019-06-06 11:32:57',
                 'created_at' => '2019-06-06 11:32:57',
+            ),
+            71 => 
+            array (
+                'id' => 115,
+                'label' => '注单报表',
+                'en_name' => 'user.bets',
+                'route' => '/report/user-bets',
+                'pid' => 47,
+                'icon' => NULL,
+                'display' => 1,
+                'level' => 2,
+                'sort' => 3,
+                'updated_at' => '2019-06-26 19:46:18',
+                'created_at' => '2019-06-26 19:46:18',
+            ),
+            72 => 
+            array (
+                'id' => 117,
+                'label' => '帮助中心',
+                'en_name' => 'helper',
+                'route' => '/operasyon/helper',
+                'pid' => 103,
+                'icon' => NULL,
+                'display' => 1,
+                'level' => 3,
+                'sort' => 8,
+                'updated_at' => '2019-07-05 20:59:31',
+                'created_at' => '2019-07-05 20:59:31',
             ),
         ));
         

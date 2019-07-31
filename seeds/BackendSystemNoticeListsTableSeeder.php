@@ -89,6 +89,38 @@ class BackendSystemNoticeListsTableSeeder extends Seeder
                 'created_at' => '2019-06-05 11:42:22',
                 'updated_at' => '2019-06-05 11:42:22',
             ),
+            9 => 
+            array (
+                'id' => 25,
+                'type' => 2,
+                'message' => '有新的文章需要审核',
+                'created_at' => '2019-07-12 17:08:55',
+                'updated_at' => '2019-07-12 17:08:55',
+            ),
+            10 => 
+            array (
+                'id' => 26,
+                'type' => 2,
+                'message' => '有新的文章需要审核',
+                'created_at' => '2019-07-12 17:09:20',
+                'updated_at' => '2019-07-12 17:09:20',
+            ),
+            11 => 
+            array (
+                'id' => 27,
+                'type' => 2,
+                'message' => '有新的文章需要审核',
+                'created_at' => '2019-07-12 17:11:11',
+                'updated_at' => '2019-07-12 17:11:11',
+            ),
+            12 => 
+            array (
+                'id' => 28,
+                'type' => 2,
+                'message' => '有新的文章需要审核',
+                'created_at' => '2019-07-12 18:05:35',
+                'updated_at' => '2019-07-12 18:05:35',
+            ),
         ));
         
         

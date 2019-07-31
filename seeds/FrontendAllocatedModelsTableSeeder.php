@@ -54,12 +54,12 @@ class FrontendAllocatedModelsTableSeeder extends Seeder
                 'en_name' => 'logo',
                 'pid' => 9,
                 'type' => 1,
-                'value' => '/uploaded_files/aa_1/logo_aa_1/b16d6f0889bcdb34e20cb0f3634cee3e.png',
+                'value' => '/uploaded_files/aa_1/logo_aa_1/12049ae8c71951ab98c1cdbd6d710da5.png',
                 'show_num' => NULL,
                 'status' => 1,
                 'level' => 3,
                 'is_homepage_display' => 1,
-                'updated_at' => '2019-06-03 14:24:11',
+                'updated_at' => '2019-07-30 18:03:53',
                 'created_at' => '2019-06-03 14:24:11',
             ),
             3 => 
@@ -144,12 +144,12 @@ class FrontendAllocatedModelsTableSeeder extends Seeder
                 'en_name' => 'qr.code',
                 'pid' => 14,
                 'type' => 1,
-                'value' => '/uploaded_files/aa_1/qr.code_aa_1/c999a4d36517f529f9f63733e86c2556.png',
+                'value' => '/uploaded_files/aa_1/qr.code_aa_1/3ab3ab1480edb158ed4e0f84f619a5ad.jpeg',
                 'show_num' => NULL,
                 'status' => 1,
                 'level' => 3,
                 'is_homepage_display' => 1,
-                'updated_at' => '2019-06-07 15:39:22',
+                'updated_at' => '2019-07-27 18:36:24',
                 'created_at' => '2019-06-03 14:26:52',
             ),
             9 => 
@@ -169,35 +169,20 @@ class FrontendAllocatedModelsTableSeeder extends Seeder
             ),
             10 => 
             array (
-                'id' => 18,
-                'label' => '热门彩种一',
-                'en_name' => 'popularLotteries.one',
-                'pid' => 14,
-                'type' => 1,
-                'value' => NULL,
-                'show_num' => 4,
-                'status' => 1,
-                'level' => 3,
-                'is_homepage_display' => 1,
-                'updated_at' => '2019-06-03 14:27:39',
-                'created_at' => '2019-06-03 14:27:39',
-            ),
-            11 => 
-            array (
                 'id' => 19,
                 'label' => '热门彩种二',
                 'en_name' => 'popularLotteries.two',
                 'pid' => 14,
                 'type' => 1,
                 'value' => NULL,
-                'show_num' => 3,
+                'show_num' => 2,
                 'status' => 1,
                 'level' => 3,
                 'is_homepage_display' => 1,
-                'updated_at' => '2019-06-03 14:27:59',
+                'updated_at' => '2019-07-30 15:24:19',
                 'created_at' => '2019-06-03 14:27:59',
             ),
-            12 => 
+            11 => 
             array (
                 'id' => 20,
                 'label' => '热门活动',
@@ -212,7 +197,7 @@ class FrontendAllocatedModelsTableSeeder extends Seeder
                 'updated_at' => '2019-06-03 14:28:20',
                 'created_at' => '2019-06-03 14:28:20',
             ),
-            13 => 
+            12 => 
             array (
                 'id' => 21,
                 'label' => '登录模块',
@@ -227,7 +212,7 @@ class FrontendAllocatedModelsTableSeeder extends Seeder
                 'updated_at' => '2019-06-04 15:44:16',
                 'created_at' => '2019-06-04 15:44:16',
             ),
-            14 => 
+            13 => 
             array (
                 'id' => 22,
                 'label' => '登录',
@@ -242,7 +227,7 @@ class FrontendAllocatedModelsTableSeeder extends Seeder
                 'updated_at' => '2019-06-04 15:45:55',
                 'created_at' => '2019-06-04 15:45:55',
             ),
-            15 => 
+            14 => 
             array (
                 'id' => 23,
                 'label' => '注册',
@@ -256,6 +241,81 @@ class FrontendAllocatedModelsTableSeeder extends Seeder
                 'is_homepage_display' => NULL,
                 'updated_at' => '2019-06-04 15:46:18',
                 'created_at' => '2019-06-04 15:46:18',
+            ),
+            15 => 
+            array (
+                'id' => 24,
+                'label' => '开奖公告',
+                'en_name' => 'lottery.notice',
+                'pid' => 14,
+                'type' => 1,
+                'value' => NULL,
+                'show_num' => 4,
+                'status' => 1,
+                'level' => 3,
+                'is_homepage_display' => 1,
+                'updated_at' => '2019-07-30 15:24:46',
+                'created_at' => '2019-07-19 20:57:22',
+            ),
+            16 => 
+            array (
+                'id' => 25,
+                'label' => 'app端热门彩种一',
+                'en_name' => 'mobile.popular.lotteries.one',
+                'pid' => 14,
+                'type' => 1,
+                'value' => NULL,
+                'show_num' => 9,
+                'status' => 1,
+                'level' => 3,
+                'is_homepage_display' => 1,
+                'updated_at' => '2019-07-30 15:24:56',
+                'created_at' => '2019-07-22 11:13:08',
+            ),
+            17 => 
+            array (
+                'id' => 26,
+                'label' => '手机端开奖公告',
+                'en_name' => 'mobile.lottery.notice',
+                'pid' => 14,
+                'type' => 1,
+                'value' => NULL,
+                'show_num' => 10,
+                'status' => 1,
+                'level' => 3,
+                'is_homepage_display' => 1,
+                'updated_at' => '2019-07-30 15:24:51',
+                'created_at' => '2019-07-22 15:04:07',
+            ),
+            18 => 
+            array (
+                'id' => 27,
+                'label' => 'web端热门彩种一',
+                'en_name' => 'popular.lotteries.one',
+                'pid' => 14,
+                'type' => 1,
+                'value' => NULL,
+                'show_num' => 9,
+                'status' => 1,
+                'level' => 3,
+                'is_homepage_display' => 1,
+                'updated_at' => '2019-07-30 15:24:31',
+                'created_at' => '2019-07-23 20:34:37',
+            ),
+            19 => 
+            array (
+                'id' => 28,
+                'label' => '1',
+                'en_name' => '1',
+                'pid' => 0,
+                'type' => 1,
+                'value' => NULL,
+                'show_num' => NULL,
+                'status' => NULL,
+                'level' => 1,
+                'is_homepage_display' => NULL,
+                'updated_at' => '2019-07-25 15:17:00',
+                'created_at' => '2019-07-25 15:17:00',
             ),
         ));
         

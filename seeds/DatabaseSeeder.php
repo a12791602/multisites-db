@@ -72,5 +72,25 @@ class DatabaseSeeder extends Seeder
         $this->call(UsersWithdrawAuditListsTableSeeder::class);
         $this->call(UsersWithdrawHistoriesTableSeeder::class);
         $this->call(UsersWithdrawLogsTableSeeder::class);
+        $this->call(CronJobsTableSeeder::class);
+        $this->call(FrontendLotteryNoticeListsTableSeeder::class);
+        $this->call(FrontendMessageNoticesContentsTableSeeder::class);
+        $this->call(FrontendUsersAccountsReportsTableSeeder::class);
+        $this->call(FrontendUsersAccountsTypesTableSeeder::class);
+        $this->call(FrontendUsersAccountsTypesParamsTableSeeder::class);
+        $this->call(FrontendUsersHelpCentersTableSeeder::class);
+        $this->call(FrontendUsersSpecificInfosTableSeeder::class);
+        $this->call(LotteryBasicMethodsTableSeeder::class);
+        $this->call(LotteryBasicWaysTableSeeder::class);
+        $this->call(LotteryMethodsLayoutDisplaysTableSeeder::class);
+        $this->call(LotteryMethodsLayoutsTableSeeder::class);
+        $this->call(LotteryMethodsNumberButtonRulesTableSeeder::class);
+        $this->call(LotteryMethodsStandardsTableSeeder::class);
+        $this->call(LotteryMethodsValidationsTableSeeder::class);
+        $this->call(LotterySeriesMethodsTableSeeder::class);
+        $this->call(LotterySeriesWaysTableSeeder::class);
+        $this->call(SystemAddressIpsTableSeeder::class);
+        $this->call(UserDaysalariesTableSeeder::class);
+        $this->call(UserProfitsTableSeeder::class);
     }
 }
