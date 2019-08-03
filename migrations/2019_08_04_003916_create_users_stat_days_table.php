@@ -32,10 +32,10 @@ class CreateUsersStatDaysTable extends Migration {
 			$table->integer('team_canceled')->unsigned()->default(0);
 			$table->integer('day');
 			$table->timestamps();
+			$table->index(['top_id','rid','day'], 'user_sale_day_top_id_rid_day_index');
+			$table->index(['top_id','user_id','day'], 'user_sale_day_top_id_user_id_day_index');
 			$table->index(['top_id','parent_id','day'], 'user_sale_day_top_id_parent_id_day_index');
 			$table->index(['top_id','day'], 'user_sale_day_top_id_day_index');
-			$table->index(['top_id','user_id','day'], 'user_sale_day_top_id_user_id_day_index');
-			$table->index(['top_id','rid','day'], 'user_sale_day_top_id_rid_day_index');
 		});
 	}
 

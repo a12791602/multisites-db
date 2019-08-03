@@ -29,6 +29,15 @@ class CreateUserProfitsTable extends Migration {
 			$table->decimal('team_bet_commission', 16, 6)->unsigned()->nullable()->default(0.000000)->comment('投注返点');
 			$table->decimal('team_dividend', 16, 4)->unsigned()->nullable()->default(0.0000)->comment('促销红利');
 			$table->decimal('team_daily_salary', 16, 4)->nullable()->default(0.0000)->comment('日工资');
+			$table->decimal('deposit', 16, 4)->nullable()->default(0.0000);
+			$table->decimal('withdrawal', 16, 4)->nullable()->default(0.0000);
+			$table->decimal('turnover', 16, 4)->nullable()->default(0.0000);
+			$table->decimal('prize', 16, 4)->nullable()->default(0.0000);
+			$table->decimal('profit', 16, 4)->nullable()->default(0.0000);
+			$table->decimal('commission', 16, 4)->nullable()->default(0.0000);
+			$table->decimal('bet_commission', 16, 4)->nullable()->default(0.0000);
+			$table->decimal('dividend', 16, 4)->nullable()->default(0.0000);
+			$table->decimal('daily_salary', 16, 4)->nullable()->default(0.0000);
 			$table->timestamps();
 			$table->unique(['user_id','date'], 'userid_date');
 			$table->unique(['username','date'], 'username_date');

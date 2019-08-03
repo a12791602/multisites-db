@@ -19,6 +19,7 @@ class CreateLotteryMethodsWaysLevelsTable extends Migration {
 			$table->boolean('level')->nullable()->comment('等级');
 			$table->integer('basic_method_id')->nullable()->comment('lottery_basic_methods表id');
 			$table->string('method_name', 16)->nullable()->comment('玩法中文名');
+			$table->string('level_name', 32)->nullable();
 			$table->string('series_id', 16)->nullable()->comment('系列标识');
 			$table->string('position', 45)->nullable()->comment('开奖位置');
 			$table->integer('count')->nullable();
