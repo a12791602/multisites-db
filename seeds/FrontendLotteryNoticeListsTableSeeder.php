@@ -25,7 +25,7 @@ class FrontendLotteryNoticeListsTableSeeder extends Seeder
                 'status' => 1,
                 'sort' => 4,
                 'created_at' => '2019-07-23 21:56:29',
-                'updated_at' => '2019-07-30 18:01:15',
+                'updated_at' => '2019-08-02 15:59:08',
             ),
             1 => 
             array (
@@ -45,7 +45,7 @@ class FrontendLotteryNoticeListsTableSeeder extends Seeder
                 'status' => 1,
                 'sort' => 3,
                 'created_at' => '2019-07-23 21:57:25',
-                'updated_at' => '2019-07-30 18:01:14',
+                'updated_at' => '2019-08-02 15:59:08',
             ),
             3 => 
             array (
@@ -56,6 +56,26 @@ class FrontendLotteryNoticeListsTableSeeder extends Seeder
                 'sort' => 1,
                 'created_at' => '2019-07-27 18:37:28',
                 'updated_at' => '2019-07-30 18:01:45',
+            ),
+            4 => 
+            array (
+                'id' => 6,
+                'lotteries_id' => 'hljssc',
+                'cn_name' => '黑龙江时时彩',
+                'status' => 0,
+                'sort' => 5,
+                'created_at' => '2019-08-02 16:03:55',
+                'updated_at' => '2019-08-02 16:14:57',
+            ),
+            5 => 
+            array (
+                'id' => 7,
+                'lotteries_id' => 'sx115',
+                'cn_name' => '山西11选5',
+                'status' => 0,
+                'sort' => 6,
+                'created_at' => '2019-08-02 16:06:40',
+                'updated_at' => '2019-08-02 16:18:05',
             ),
         ));
         

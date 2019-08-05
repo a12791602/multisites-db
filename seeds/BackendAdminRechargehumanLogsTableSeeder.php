@@ -1205,6 +1205,24 @@ class BackendAdminRechargehumanLogsTableSeeder extends Seeder
                 'updated_at' => '2019-07-25 00:00:02',
                 'created_at' => '2019-07-25 00:00:02',
             ),
+            66 => 
+            array (
+                'id' => 79,
+                'type' => 3,
+                'in_out' => 0,
+                'super_admin_id' => 24,
+                'super_admin_name' => 'Ling',
+                'admin_id' => NULL,
+                'admin_name' => NULL,
+                'user_id' => 16,
+                'user_name' => 'ling1',
+                'amount' => '90000.00',
+                'comment' => '[给用户人工充值]==>-90000|[目前额度]==>',
+                'audit_flow_id' => NULL,
+                'status' => 1,
+                'updated_at' => '2019-07-29 21:26:44',
+                'created_at' => '2019-07-29 21:26:44',
+            ),
         ));
         
         

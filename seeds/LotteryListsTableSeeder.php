@@ -40,9 +40,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '300000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/7d0786919b16a113482cc4d79289a916.png',
                 'created_at' => NULL,
-                'updated_at' => '2019-07-27 16:13:31',
+                'updated_at' => '2019-08-02 10:56:29',
             ),
             1 => 
             array (
@@ -67,9 +67,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/6d8dd4991101cb0e92623850eb83fb09.png',
                 'created_at' => NULL,
-                'updated_at' => '2019-05-24 16:35:55',
+                'updated_at' => '2019-08-02 11:04:13',
             ),
             2 => 
             array (
@@ -94,9 +94,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/3f4b4a2a613e02d4d753852c1edecd90.png',
                 'created_at' => NULL,
-                'updated_at' => '2019-05-29 14:48:51',
+                'updated_at' => '2019-08-02 11:26:33',
             ),
             3 => 
             array (
@@ -121,9 +121,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/bc5c9ff3bfb4e1abbf20f82ddc6b1759.png',
                 'created_at' => NULL,
-                'updated_at' => '2019-05-24 16:35:55',
+                'updated_at' => '2019-08-02 11:27:18',
             ),
             4 => 
             array (
@@ -148,9 +148,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/1ed3039d5318e26c52cb6d5d4ece1b92.png',
                 'created_at' => NULL,
-                'updated_at' => '2019-07-16 20:35:49',
+                'updated_at' => '2019-08-02 11:27:35',
             ),
             5 => 
             array (
@@ -175,9 +175,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/8145f4b51765f550b6361465ce3107cc.png',
                 'created_at' => NULL,
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:29:36',
             ),
             6 => 
             array (
@@ -202,9 +202,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/fe3e33006188a98fc3da0eb0790820f3.png',
                 'created_at' => NULL,
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:29:48',
             ),
             7 => 
             array (
@@ -229,9 +229,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/3b39598f07be7b24feb4789057bb5ee2.png',
                 'created_at' => NULL,
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:30:01',
             ),
             8 => 
             array (
@@ -256,9 +256,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/413e19ea5dc3322db2361ad80666ad67.png',
                 'created_at' => NULL,
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:30:15',
             ),
             9 => 
             array (
@@ -283,9 +283,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/041b84daa8b0560e4a3f55cc2142a0be.png',
                 'created_at' => NULL,
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:30:28',
             ),
             10 => 
             array (
@@ -310,9 +310,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/c7f6b6cefda611e4796e662b3799d7f1.png',
                 'created_at' => NULL,
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:30:37',
             ),
             11 => 
             array (
@@ -337,9 +337,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/181f6cfc27d8ca2f37a983c108b96208.png',
                 'created_at' => NULL,
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:30:55',
             ),
             12 => 
             array (
@@ -364,9 +364,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/cc6f1879559062b9cb2f780dc1d1821b.png',
                 'created_at' => NULL,
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:31:10',
             ),
             13 => 
             array (
@@ -391,9 +391,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/bd28ac0df5654bd44361ba7f9d19c085.png',
                 'created_at' => NULL,
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:31:22',
             ),
             14 => 
             array (
@@ -418,9 +418,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/dc969d71edcb72a64df8bdf894335f73.png',
                 'created_at' => NULL,
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:31:32',
             ),
             15 => 
             array (
@@ -445,9 +445,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/5cdbb84f076b7fd770ff555e6d0c11a0.png',
                 'created_at' => NULL,
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:31:45',
             ),
             16 => 
             array (
@@ -472,9 +472,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/e8fb8f43b6f6ba7bc1c6874cfb304714.png',
                 'created_at' => NULL,
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:32:54',
             ),
             17 => 
             array (
@@ -499,9 +499,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/c0672061dee24228669178e935d4c9e0.png',
                 'created_at' => NULL,
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:33:06',
             ),
             18 => 
             array (
@@ -553,9 +553,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/e6c085eb0bae2dc58423946c690ec173.png',
                 'created_at' => NULL,
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:33:36',
             ),
             20 => 
             array (
@@ -580,9 +580,9 @@ class LotteryListsTableSeeder extends Seeder
                 'max_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 0,
-                'icon_path' => NULL,
+                'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/bf4100346e2764908bb68bbb052bf588.png',
                 'created_at' => NULL,
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:34:01',
             ),
             21 => 
             array (

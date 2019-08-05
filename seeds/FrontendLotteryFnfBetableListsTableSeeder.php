@@ -21,37 +21,37 @@ class FrontendLotteryFnfBetableListsTableSeeder extends Seeder
             array (
                 'id' => 3,
                 'lotteries_id' => 'cqssc',
-                'method_id' => 93,
+                'method_id' => 94,
                 'sort' => 2,
                 'created_at' => '2019-06-04 15:01:43',
-                'updated_at' => '2019-07-27 16:50:37',
+                'updated_at' => '2019-08-02 15:44:39',
             ),
             1 => 
             array (
                 'id' => 4,
                 'lotteries_id' => 'zx1fc',
-                'method_id' => 399,
+                'method_id' => 411,
                 'sort' => 1,
                 'created_at' => '2019-06-04 15:02:27',
-                'updated_at' => '2019-07-27 16:50:37',
+                'updated_at' => '2019-08-02 15:44:26',
             ),
             2 => 
             array (
                 'id' => 5,
-                'lotteries_id' => NULL,
-                'method_id' => 187,
+                'lotteries_id' => 'xjssc',
+                'method_id' => 201,
                 'sort' => 3,
                 'created_at' => '2019-06-04 15:48:28',
-                'updated_at' => '2019-06-05 15:15:23',
+                'updated_at' => '2019-08-02 15:44:50',
             ),
             3 => 
             array (
                 'id' => 6,
-                'lotteries_id' => 'p3p5',
-                'method_id' => 907,
+                'lotteries_id' => 'hljssc',
+                'method_id' => 308,
                 'sort' => 4,
                 'created_at' => '2019-07-13 17:03:09',
-                'updated_at' => '2019-07-13 17:03:09',
+                'updated_at' => '2019-08-02 15:45:04',
             ),
         ));
         

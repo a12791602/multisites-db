@@ -457,6 +457,18 @@ class LotteryBasicWaysTableSeeder extends Seeder
                 'created_at' => '2016-11-11 01:45:07',
                 'updated_at' => '2016-11-11 01:45:07',
             ),
+            40 => 
+            array (
+                'id' => 42,
+                'lottery_type' => 2,
+                'name' => '定位胆乐透',
+                'function' => 'LottoSingleOne',
+                'description' => '定位胆第一位,定位胆第二位
+定位胆第一位,定位胆第二位,定位胆第三位',
+                'sequence' => NULL,
+                'created_at' => '2014-09-05 19:50:36',
+                'updated_at' => '2014-09-05 19:50:36',
+            ),
         ));
         
         

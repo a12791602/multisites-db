@@ -199,6 +199,45 @@ class FrontendWebRoutesTableSeeder extends Seeder
                 'created_at' => '2019-07-19 22:00:30',
                 'updated_at' => '2019-07-19 22:00:30',
             ),
+            14 => 
+            array (
+                'id' => 34,
+                'route_name' => 'web-api.HomepageController.popular-lotteries',
+                'controller' => 'App\\Http\\Controllers\\FrontendApi\\Homepage\\HomepageController',
+                'method' => 'popularLotteries',
+                'frontend_model_id' => 27,
+                'title' => 'web首页热门彩种列表',
+                'description' => NULL,
+                'is_open' => 1,
+                'created_at' => '2019-07-31 20:40:33',
+                'updated_at' => '2019-07-31 20:40:37',
+            ),
+            15 => 
+            array (
+                'id' => 35,
+                'route_name' => 'web-api.HomepageController.popular-chess-cards-lists',
+                'controller' => 'App\\Http\\Controllers\\FrontendApi\\Homepage\\HomepageController',
+                'method' => 'popularChessCardsLists',
+                'frontend_model_id' => 29,
+                'title' => '首页-热门棋牌列表',
+                'description' => NULL,
+                'is_open' => 1,
+                'created_at' => '2019-08-01 15:25:07',
+                'updated_at' => '2019-08-01 15:25:10',
+            ),
+            16 => 
+            array (
+                'id' => 36,
+                'route_name' => 'web-api.HomepageController.popular-e-game-lists',
+                'controller' => 'App\\Http\\Controllers\\FrontendApi\\Homepage\\HomepageController',
+                'method' => 'popularEGameLists',
+                'frontend_model_id' => 30,
+                'title' => '首页-热门电子列表',
+                'description' => NULL,
+                'is_open' => 1,
+                'created_at' => '2019-08-01 15:25:42',
+                'updated_at' => '2019-08-01 15:25:45',
+            ),
         ));
         
         

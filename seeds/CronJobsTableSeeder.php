@@ -105,6 +105,17 @@ class CronJobsTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
+            8 => 
+            array (
+                'id' => 11,
+                'command' => 'UserBonus',
+                'param' => NULL,
+                'schedule' => '0 4 1,15 * *',
+                'status' => 1,
+                'remarks' => '每月1、15号4点计算分红',
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
         ));
         
         

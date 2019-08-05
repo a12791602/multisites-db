@@ -20,14 +20,14 @@ class FrontendUsersSpecificInfosTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'nickname' => '1234',
+                'nickname' => '蛤蛤',
                 'realname' => '1233',
                 'mobile' => '13880628809',
                 'email' => '1823444@qq.com',
                 'zip_code' => '233333',
                 'address' => '反反大地的的的3333',
                 'created_at' => NULL,
-                'updated_at' => '2019-07-26 20:54:28',
+                'updated_at' => '2019-08-01 22:59:20',
             ),
             1 => 
             array (

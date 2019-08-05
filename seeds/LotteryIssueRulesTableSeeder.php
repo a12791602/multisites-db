@@ -181,7 +181,7 @@ class LotteryIssueRulesTableSeeder extends Seeder
             array (
                 'id' => 11,
                 'lottery_id' => 'jx115',
-                'lottery_name' => '江西十一选5',
+                'lottery_name' => '江西11选5',
                 'begin_time' => '10:00:00',
                 'end_time' => '02:00:00',
                 'issue_seconds' => 1200,
@@ -191,13 +191,13 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'issue_count' => 42,
                 'status' => 1,
                 'created_at' => '2019-04-29 15:22:11',
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:30:28',
             ),
             11 => 
             array (
                 'id' => 12,
                 'lottery_id' => 'zx115',
-                'lottery_name' => '中兴十一选5',
+                'lottery_name' => '中兴11选5',
                 'begin_time' => '00:00:00',
                 'end_time' => '00:00:00',
                 'issue_seconds' => 60,
@@ -207,7 +207,7 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'issue_count' => 1440,
                 'status' => 1,
                 'created_at' => '2019-04-29 15:22:11',
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:30:37',
             ),
             12 => 
             array (
@@ -229,7 +229,7 @@ class LotteryIssueRulesTableSeeder extends Seeder
             array (
                 'id' => 14,
                 'lottery_id' => 'ahk3',
-                'lottery_name' => '安徽快三',
+                'lottery_name' => '安徽快3',
                 'begin_time' => '08:40:00',
                 'end_time' => '22:00:00',
                 'issue_seconds' => 1200,
@@ -239,7 +239,7 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'issue_count' => 40,
                 'status' => 1,
                 'created_at' => '2019-04-29 15:22:12',
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:31:10',
             ),
             14 => 
             array (
@@ -341,7 +341,7 @@ class LotteryIssueRulesTableSeeder extends Seeder
             array (
                 'id' => 21,
                 'lottery_id' => 'bjpk10',
-                'lottery_name' => '北京赛车PK10',
+                'lottery_name' => '北京PK10',
                 'begin_time' => '09:10:00',
                 'end_time' => '23:50:00',
                 'issue_seconds' => 1200,
@@ -349,9 +349,9 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'adjust_time' => 60,
                 'encode_time' => 0,
                 'issue_count' => 44,
-                'status' => 1,
+                'status' => 0,
                 'created_at' => '2019-04-29 15:22:13',
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 11:34:01',
             ),
             21 => 
             array (

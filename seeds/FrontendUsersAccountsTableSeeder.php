@@ -21,11 +21,11 @@ class FrontendUsersAccountsTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'user_id' => 1,
-                'balance' => '1002892906.5331',
-                'frozen' => '771615.6100',
+                'balance' => '1002891373.3231',
+                'frozen' => '772561.6100',
                 'status' => 1,
                 'created_at' => '2019-05-16 11:07:18',
-                'updated_at' => '2019-07-30 17:42:20',
+                'updated_at' => '2019-08-03 16:35:34',
             ),
             1 => 
             array (
@@ -41,21 +41,21 @@ class FrontendUsersAccountsTableSeeder extends Seeder
             array (
                 'id' => 3,
                 'user_id' => 3,
-                'balance' => '197471.4536',
-                'frozen' => '221783.2100',
+                'balance' => '5201166.9859',
+                'frozen' => '240573.1900',
                 'status' => 1,
                 'created_at' => '2019-06-19 22:07:40',
-                'updated_at' => '2019-07-11 20:19:58',
+                'updated_at' => '2019-08-03 23:07:33',
             ),
             3 => 
             array (
                 'id' => 4,
                 'user_id' => 4,
-                'balance' => '87306.4974',
-                'frozen' => '10321.4400',
+                'balance' => '86933.4271',
+                'frozen' => '10150.8800',
                 'status' => 1,
                 'created_at' => '2019-06-19 22:12:35',
-                'updated_at' => '2019-07-11 11:58:06',
+                'updated_at' => '2019-08-01 12:14:05',
             ),
             4 => 
             array (
@@ -171,11 +171,11 @@ class FrontendUsersAccountsTableSeeder extends Seeder
             array (
                 'id' => 16,
                 'user_id' => 16,
-                'balance' => '89999.7400',
-                'frozen' => '0.2600',
+                'balance' => '89940.6600',
+                'frozen' => '64.0000',
                 'status' => 1,
                 'created_at' => '2019-07-15 16:57:01',
-                'updated_at' => '2019-07-29 21:28:15',
+                'updated_at' => '2019-08-03 16:32:28',
             ),
             16 => 
             array (

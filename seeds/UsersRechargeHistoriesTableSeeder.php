@@ -357,6 +357,26 @@ class UsersRechargeHistoriesTableSeeder extends Seeder
                 'updated_at' => '2019-07-19 14:45:35',
                 'created_at' => '2019-07-19 14:45:35',
             ),
+            17 => 
+            array (
+                'id' => 18,
+                'user_id' => 16,
+                'user_name' => 'ling1',
+                'is_tester' => 0,
+                'top_agent' => 0,
+                'channel' => NULL,
+                'payment_id' => NULL,
+                'amount' => '90000.000',
+                'company_order_num' => '2019072968042926885896592',
+                'third_party_order_num' => NULL,
+                'deposit_mode' => 1,
+                'real_amount' => NULL,
+                'fee' => NULL,
+                'audit_flow_id' => NULL,
+                'status' => 11,
+                'updated_at' => '2019-07-29 21:26:44',
+                'created_at' => '2019-07-29 21:26:44',
+            ),
         ));
         
         

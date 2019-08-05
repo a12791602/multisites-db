@@ -255,6 +255,20 @@ class UsersRechargeLogsTableSeeder extends Seeder
                 'created_at' => '2019-07-19 14:45:35',
                 'updated_at' => '2019-07-19 14:45:35',
             ),
+            17 => 
+            array (
+                'id' => 18,
+                'company_order_num' => '2019072968042926885896592',
+                'log_num' => '8e482f2efc6e',
+                'real_amount' => NULL,
+                'deposit_mode' => 1,
+                'req_type' => NULL,
+                'req_type_1_params' => NULL,
+                'req_type_2_params' => NULL,
+                'user_recharge_logcol2' => NULL,
+                'created_at' => '2019-07-29 21:26:44',
+                'updated_at' => '2019-07-29 21:26:44',
+            ),
         ));
         
         

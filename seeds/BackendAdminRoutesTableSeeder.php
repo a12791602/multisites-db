@@ -23,12 +23,12 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'route_name' => 'backend-api.logout',
                 'controller' => 'App\\Http\\Controllers\\BackendApi\\BackendAuthController',
                 'method' => 'logout',
-                'menu_group_id' => NULL,
-                'title' => '登出',
+                'menu_group_id' => 11,
+                'title' => '管理员登出接口',
                 'description' => NULL,
                 'is_open' => 0,
                 'created_at' => NULL,
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-02 18:09:46',
             ),
             1 => 
             array (
@@ -2187,6 +2187,32 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'is_open' => 0,
                 'created_at' => '2019-07-30 18:21:33',
                 'updated_at' => '2019-07-30 18:21:33',
+            ),
+            167 => 
+            array (
+                'id' => 192,
+                'route_name' => 'backend-api.login',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\BackendAuthController',
+                'method' => 'login',
+                'menu_group_id' => 11,
+                'title' => '管理员登录接口',
+                'description' => NULL,
+                'is_open' => 1,
+                'created_at' => '2019-08-02 18:06:10',
+                'updated_at' => '2019-08-02 18:06:27',
+            ),
+            168 => 
+            array (
+                'id' => 193,
+                'route_name' => 'backend-api.lotteries.winning-numberset',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Game\\Lottery\\WinningNumberContro',
+                'method' => 'setLotteryNumber',
+                'menu_group_id' => 12,
+                'title' => '奖期开奖中心推号接口',
+                'description' => NULL,
+                'is_open' => 1,
+                'created_at' => '2019-08-03 15:25:52',
+                'updated_at' => '2019-08-03 16:37:05',
             ),
         ));
         
