@@ -20,7 +20,7 @@ class FrontendUsersAccountsTypesParamsTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'label' => '字段1',
+                'label' => '金额',
                 'param' => 'amount',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -28,7 +28,7 @@ class FrontendUsersAccountsTypesParamsTableSeeder extends Seeder
             1 => 
             array (
                 'id' => 2,
-                'label' => '字段2',
+                'label' => '用户id',
                 'param' => 'user_id',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -36,7 +36,7 @@ class FrontendUsersAccountsTypesParamsTableSeeder extends Seeder
             2 => 
             array (
                 'id' => 3,
-                'label' => '字段3',
+                'label' => '投注id',
                 'param' => 'project_id',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -44,7 +44,7 @@ class FrontendUsersAccountsTypesParamsTableSeeder extends Seeder
             3 => 
             array (
                 'id' => 4,
-                'label' => '字段4',
+                'label' => '彩种id',
                 'param' => 'lottery_id',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -52,7 +52,7 @@ class FrontendUsersAccountsTypesParamsTableSeeder extends Seeder
             4 => 
             array (
                 'id' => 5,
-                'label' => '字段5',
+                'label' => '彩种玩法id',
                 'param' => 'method_id',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -60,7 +60,7 @@ class FrontendUsersAccountsTypesParamsTableSeeder extends Seeder
             5 => 
             array (
                 'id' => 6,
-                'label' => '字段6',
+                'label' => '彩种奖期',
                 'param' => 'issue',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -68,7 +68,7 @@ class FrontendUsersAccountsTypesParamsTableSeeder extends Seeder
             6 => 
             array (
                 'id' => 7,
-                'label' => '字段7',
+                'label' => '转账的用户id',
                 'param' => 'from_id',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -76,7 +76,7 @@ class FrontendUsersAccountsTypesParamsTableSeeder extends Seeder
             7 => 
             array (
                 'id' => 8,
-                'label' => '字段8',
+                'label' => '转账的总代id',
                 'param' => 'from_admin_id',
                 'created_at' => NULL,
                 'updated_at' => NULL,
@@ -84,7 +84,7 @@ class FrontendUsersAccountsTypesParamsTableSeeder extends Seeder
             8 => 
             array (
                 'id' => 9,
-                'label' => '字段9',
+                'label' => '接受转账的用户id',
                 'param' => 'to_id',
                 'created_at' => NULL,
                 'updated_at' => NULL,

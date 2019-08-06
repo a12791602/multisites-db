@@ -907,10 +907,10 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'route' => '/operasyon/bannar',
                 'pid' => 103,
                 'icon' => NULL,
-                'display' => 0,
+                'display' => 1,
                 'level' => 3,
                 'sort' => 4,
-                'updated_at' => '2019-07-11 18:33:30',
+                'updated_at' => '2019-08-05 16:30:58',
                 'created_at' => '2019-05-17 11:10:43',
             ),
             64 => 

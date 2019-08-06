@@ -7348,7 +7348,7 @@ class LotterySeriesWaysTableSeeder extends Seeder
             229 => 
             array (
                 'id' => 230,
-                'lottery_type' => NULL,
+                'lottery_type' => 1,
                 'series_id_old' => 14,
                 'series_id' => 3,
                 'series_code' => 'k3',
@@ -7380,7 +7380,7 @@ class LotterySeriesWaysTableSeeder extends Seeder
             230 => 
             array (
                 'id' => 231,
-                'lottery_type' => NULL,
+                'lottery_type' => 1,
                 'series_id_old' => 14,
                 'series_id' => 3,
                 'series_code' => 'k3',
@@ -7412,7 +7412,7 @@ class LotterySeriesWaysTableSeeder extends Seeder
             231 => 
             array (
                 'id' => 232,
-                'lottery_type' => NULL,
+                'lottery_type' => 1,
                 'series_id_old' => 14,
                 'series_id' => 3,
                 'series_code' => 'k3',
@@ -7444,7 +7444,7 @@ class LotterySeriesWaysTableSeeder extends Seeder
             232 => 
             array (
                 'id' => 233,
-                'lottery_type' => NULL,
+                'lottery_type' => 1,
                 'series_id_old' => 14,
                 'series_id' => 3,
                 'series_code' => 'k3',
@@ -7476,7 +7476,7 @@ class LotterySeriesWaysTableSeeder extends Seeder
             233 => 
             array (
                 'id' => 234,
-                'lottery_type' => NULL,
+                'lottery_type' => 1,
                 'series_id_old' => 14,
                 'series_id' => 3,
                 'series_code' => 'k3',
@@ -7508,7 +7508,7 @@ class LotterySeriesWaysTableSeeder extends Seeder
         234 => 
         array (
             'id' => 235,
-            'lottery_type' => NULL,
+            'lottery_type' => 1,
             'series_id_old' => 14,
             'series_id' => 3,
             'series_code' => 'k3',
@@ -7540,7 +7540,7 @@ class LotterySeriesWaysTableSeeder extends Seeder
         235 => 
         array (
             'id' => 236,
-            'lottery_type' => NULL,
+            'lottery_type' => 1,
             'series_id_old' => 14,
             'series_id' => 3,
             'series_code' => 'k3',
@@ -7732,7 +7732,7 @@ class LotterySeriesWaysTableSeeder extends Seeder
         241 => 
         array (
             'id' => 242,
-            'lottery_type' => NULL,
+            'lottery_type' => 1,
             'series_id_old' => 14,
             'series_id' => 3,
             'series_code' => 'k3',

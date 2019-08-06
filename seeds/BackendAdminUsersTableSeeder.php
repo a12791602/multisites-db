@@ -24,14 +24,14 @@ class BackendAdminUsersTableSeeder extends Seeder
                 'email' => 'harrisdt15f@gmail.com',
                 'email_verified_at' => NULL,
                 'password' => '$2y$10$Bz7/W8LEMgHnOkAtULbpbOjpjESkTihGyGJLJUsPGYquBJCP8bQfm',
-                'remember_token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuOTE3MHR0dC5jb21cL2FwaVwvbG9naW4iLCJpYXQiOjE1NjQ4MTU3NjYsImV4cCI6MTU2NDkwMjE2NiwibmJmIjoxNTY0ODE1NzY2LCJqdGkiOiJIQUZETmN5UExQaGVjRTNKIiwic3ViIjoxLCJwcnYiOiI4NDE5NzI0ZWE3NGJjNTQzMTkyOTBmMDc0OTU0Y2Q3ZDk4MzBjOTI3In0.AnMueMcgnFSmx0I_SNPenJJBIb8L84WzLA-bJVBXNuo',
+                'remember_token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuOTE3MHR0dC5jb21cL2FwaVwvbG9naW4iLCJpYXQiOjE1NjQ5NzQ1OTcsImV4cCI6MTU2NTA2MDk5NywibmJmIjoxNTY0OTc0NTk3LCJqdGkiOiJWNEV4ODBtMmdvYVJGdGpzIiwic3ViIjoxLCJwcnYiOiI4NDE5NzI0ZWE3NGJjNTQzMTkyOTBmMDc0OTU0Y2Q3ZDk4MzBjOTI3In0.TBairnnEpiy9e1mVN2SQarzX_SogkvDjW5Y9jA-CL34',
                 'is_test' => 0,
                 'group_id' => 1,
                 'status' => 1,
                 'platform_id' => 1,
                 'super_id' => NULL,
                 'created_at' => '2019-03-29 23:50:58',
-                'updated_at' => '2019-08-03 15:02:46',
+                'updated_at' => '2019-08-05 11:09:57',
             ),
             1 => 
             array (
@@ -40,14 +40,14 @@ class BackendAdminUsersTableSeeder extends Seeder
                 'email' => 'york@gmail.com',
                 'email_verified_at' => NULL,
                 'password' => '$2y$10$.otGn0zTx.OvtmmXQOu2neJEUcsm3li4Zt6pIBe1Tsw.qPSqk9.X6',
-                'remember_token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuOTE3MHR0dC5jb21cL2FwaVwvbG9naW4iLCJpYXQiOjE1NjQ3MzI0MDgsImV4cCI6MTU2NDgxODgwOCwibmJmIjoxNTY0NzMyNDA4LCJqdGkiOiJKV3J4TDViZ0VhSW5IQVdtIiwic3ViIjo0LCJwcnYiOiI4NDE5NzI0ZWE3NGJjNTQzMTkyOTBmMDc0OTU0Y2Q3ZDk4MzBjOTI3In0.1FdbkCSnXvrsmPuNR-fqx5zUuKeKh21KYitRJ_oC5no',
+                'remember_token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuOTE3MHR0dC5jb21cL2FwaVwvbG9naW4iLCJpYXQiOjE1NjQ5ODg2MjMsImV4cCI6MTU2NTA3NTAyMywibmJmIjoxNTY0OTg4NjIzLCJqdGkiOiJlN0JTbnRrU1VFT3FZOWxGIiwic3ViIjo0LCJwcnYiOiI4NDE5NzI0ZWE3NGJjNTQzMTkyOTBmMDc0OTU0Y2Q3ZDk4MzBjOTI3In0.GKkBpyiqdOgCp8dGZnCFuDnDG3-VLxA9XkZqOPAkpHY',
                 'is_test' => 0,
                 'group_id' => 1,
                 'status' => 1,
                 'platform_id' => 1,
                 'super_id' => NULL,
                 'created_at' => '2019-04-04 12:49:23',
-                'updated_at' => '2019-08-02 15:53:28',
+                'updated_at' => '2019-08-05 15:03:43',
             ),
             2 => 
             array (
@@ -72,14 +72,14 @@ class BackendAdminUsersTableSeeder extends Seeder
                 'email' => 'Ling@gmail.com',
                 'email_verified_at' => NULL,
                 'password' => '$2y$10$HgCC6p.x14GUT.jDMwGb3uTXurmpVeyjHNSbr6WZvNdHMGpItMtfm',
-                'remember_token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbC5tdWx0aXNpdGVzLmNvbVwvYXBpXC9sb2dpbiIsImlhdCI6MTU2NDg0MTI5OSwiZXhwIjoxNTY0OTI3Njk5LCJuYmYiOjE1NjQ4NDEyOTksImp0aSI6ImVqWGgwM0dQQXZqUEJrRUYiLCJzdWIiOjI0LCJwcnYiOiI4NDE5NzI0ZWE3NGJjNTQzMTkyOTBmMDc0OTU0Y2Q3ZDk4MzBjOTI3In0.A5eO8Ic5o7ujtYaTYR9OenAC0-zt555jSUlTKh2W8fU',
+                'remember_token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuOTE3MHR0dC5jb21cL2FwaVwvbG9naW4iLCJpYXQiOjE1NjQ5OTI3MTgsImV4cCI6MTU2NTA3OTExOCwibmJmIjoxNTY0OTkyNzE4LCJqdGkiOiJVZlVHelhrWlZ5d3Z5Y1Z6Iiwic3ViIjoyNCwicHJ2IjoiODQxOTcyNGVhNzRiYzU0MzE5MjkwZjA3NDk1NGNkN2Q5ODMwYzkyNyJ9.o86ylStXw127MfHmQFGog3WbW23gi-A8AeJrCarSAME',
                 'is_test' => 1,
                 'group_id' => 1,
                 'status' => 1,
                 'platform_id' => 1,
                 'super_id' => NULL,
                 'created_at' => '2019-05-15 11:09:20',
-                'updated_at' => '2019-08-03 22:08:19',
+                'updated_at' => '2019-08-05 16:11:58',
             ),
             4 => 
             array (
@@ -147,22 +147,6 @@ class BackendAdminUsersTableSeeder extends Seeder
             ),
             8 => 
             array (
-                'id' => 30,
-                'name' => 'max',
-                'email' => 'max@gmail.com',
-                'email_verified_at' => NULL,
-                'password' => '$2y$10$fByAEQBwyOTHLAh67FLuq.dx8MktkuO3LMWvMMyF89ADVa8GNH4nK',
-                'remember_token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuOTE3MHR0dC5jb21cL2FwaVwvbG9naW4iLCJpYXQiOjE1NjM0MjE0MzQsImV4cCI6MTU2MzUwNzgzNCwibmJmIjoxNTYzNDIxNDM0LCJqdGkiOiJvU3pRT3VobVFRVXhkNTZ4Iiwic3ViIjozMCwicHJ2IjoiODQxOTcyNGVhNzRiYzU0MzE5MjkwZjA3NDk1NGNkN2Q5ODMwYzkyNyJ9.p3yAltsFK-XdcusN6yl1Unwbo_EzNjlkbVWgk036uu8',
-                'is_test' => 1,
-                'group_id' => 1,
-                'status' => 1,
-                'platform_id' => 1,
-                'super_id' => NULL,
-                'created_at' => '2019-07-11 17:13:00',
-                'updated_at' => '2019-07-18 11:43:54',
-            ),
-            9 => 
-            array (
                 'id' => 35,
                 'name' => 'tom',
                 'email' => 'tom@gmail.com',
@@ -177,7 +161,7 @@ class BackendAdminUsersTableSeeder extends Seeder
                 'created_at' => '2019-07-11 20:50:48',
                 'updated_at' => '2019-07-11 20:50:48',
             ),
-            10 => 
+            9 => 
             array (
                 'id' => 42,
                 'name' => 'diana111',
@@ -192,6 +176,38 @@ class BackendAdminUsersTableSeeder extends Seeder
                 'super_id' => NULL,
                 'created_at' => '2019-07-25 15:04:42',
                 'updated_at' => '2019-07-25 15:06:28',
+            ),
+            10 => 
+            array (
+                'id' => 43,
+                'name' => 'max1111',
+                'email' => 'max@qq.com',
+                'email_verified_at' => NULL,
+                'password' => '$2y$10$Rgkfrp0fQRrbuN3PV45RsefmF0s8fXYkUBYt5YHYbdKS4pHeo1qd.',
+                'remember_token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuOTE3MHR0dC5jb21cL2FwaVwvbG9naW4iLCJpYXQiOjE1NjQ5NzQ2ODksImV4cCI6MTU2NTA2MTA4OSwibmJmIjoxNTY0OTc0Njg5LCJqdGkiOiJtQW1qNmdTZ1R0R2l0SElwIiwic3ViIjo0MywicHJ2IjoiODQxOTcyNGVhNzRiYzU0MzE5MjkwZjA3NDk1NGNkN2Q5ODMwYzkyNyJ9.0sGvjujMoeSu-iubXoe25qE1OYXN-3Np6qChe75cg08',
+                'is_test' => 1,
+                'group_id' => 1,
+                'status' => 1,
+                'platform_id' => 1,
+                'super_id' => NULL,
+                'created_at' => '2019-08-05 11:11:17',
+                'updated_at' => '2019-08-05 11:11:29',
+            ),
+            11 => 
+            array (
+                'id' => 44,
+                'name' => 'jeff',
+                'email' => 'jeff8979@outlook.com',
+                'email_verified_at' => NULL,
+                'password' => '$2y$10$Fo9Uri/h7HJtTKCkpDvguejx46kTNWKKqCDgnVMR/KnKZWITPLUXO',
+                'remember_token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuOTE3MHR0dC5jb21cL2FwaVwvbG9naW4iLCJpYXQiOjE1NjQ5ODcyMTAsImV4cCI6MTU2NTA3MzYxMCwibmJmIjoxNTY0OTg3MjEwLCJqdGkiOiJJQ09PWm5ueTFMV0NxdU5lIiwic3ViIjo0NCwicHJ2IjoiODQxOTcyNGVhNzRiYzU0MzE5MjkwZjA3NDk1NGNkN2Q5ODMwYzkyNyJ9.IQhHYJGnVDwwmghZu46sum39hd3qZrUI5Rq7DJy-joc',
+                'is_test' => 1,
+                'group_id' => 1,
+                'status' => 1,
+                'platform_id' => 1,
+                'super_id' => NULL,
+                'created_at' => '2019-08-05 14:22:47',
+                'updated_at' => '2019-08-05 14:40:10',
             ),
         ));
         

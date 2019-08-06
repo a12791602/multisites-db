@@ -111,7 +111,7 @@ class FrontendSystemBanksTableSeeder extends Seeder
                 'remarks' => '单日充值总额无上限；无手续费',
                 'allow_user_level' => '1,2,3,4,5,6,7,8,9,10',
                 'created_at' => NULL,
-                'updated_at' => '2019-07-25 16:19:07',
+                'updated_at' => '2019-08-05 22:23:45',
             ),
             6 => 
             array (
@@ -191,7 +191,7 @@ class FrontendSystemBanksTableSeeder extends Seeder
                 'remarks' => '单日充值总额无上限；无手续费',
                 'allow_user_level' => '1,2,3,4,5,6,7,8,9,10',
                 'created_at' => NULL,
-                'updated_at' => '2019-07-25 16:19:04',
+                'updated_at' => '2019-08-05 22:23:43',
             ),
             11 => 
             array (
