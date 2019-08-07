@@ -33,6 +33,7 @@ class FrontendPageBannersTableSeeder extends Seeder
                 'sort' => 2,
                 'created_at' => '2019-06-18 20:11:39',
                 'updated_at' => '2019-07-09 15:48:51',
+                'flag' => 0,
             ),
             1 => 
             array (
@@ -50,6 +51,7 @@ class FrontendPageBannersTableSeeder extends Seeder
                 'sort' => 1,
                 'created_at' => '2019-06-18 20:13:07',
                 'updated_at' => '2019-07-09 15:48:51',
+                'flag' => 0,
             ),
             2 => 
             array (
@@ -67,6 +69,7 @@ class FrontendPageBannersTableSeeder extends Seeder
                 'sort' => 3,
                 'created_at' => '2019-06-18 20:13:39',
                 'updated_at' => '2019-06-18 20:13:39',
+                'flag' => 0,
             ),
             3 => 
             array (
@@ -84,6 +87,7 @@ class FrontendPageBannersTableSeeder extends Seeder
                 'sort' => 4,
                 'created_at' => '2019-06-18 20:13:59',
                 'updated_at' => '2019-06-18 20:13:59',
+                'flag' => 0,
             ),
         ));
         

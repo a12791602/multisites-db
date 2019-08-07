@@ -116,6 +116,17 @@ class CronJobsTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
+            9 => 
+            array (
+                'id' => 12,
+                'command' => 'LotterySchedule',
+                'param' => '{"lottery_sign":"zxk3"}',
+                'schedule' => '*/1 * * * *',
+                'status' => 1,
+                'remarks' => '中兴快3->自动开奖任务',
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
         ));
         
         

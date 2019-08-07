@@ -34,18 +34,19 @@ class FrontendUsersTableSeeder extends Seeder
                 'password' => '$2y$10$jviprT2Ej6Q5uUWwt3p..u6dfba3pcduU9xhcLm99r7EnEZmriMxC',
                 'fund_password' => '$2y$10$71x11gceU8LOzZbQA47F4OojCJfv2Y3GO3E8rf9rKJQFfSvWXqnFW',
                 'prize_group' => 1980,
-                'remember_token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkuOTE3MHR0dC5jb21cL3dlYi1hcGlcL2xvZ2l',
+                'remember_token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbC5tdWx0aXNpdGVzLmNvbVwvd2ViLWFwaVw',
                 'level_deep' => 0,
                 'register_ip' => '172.19.0.1',
-                'last_login_ip' => '103.42.94.10',
+                'last_login_ip' => '172.19.0.1',
                 'register_time' => NULL,
-                'last_login_time' => '2019-08-05 17:31:13',
+                'last_login_time' => '2019-08-06 22:19:02',
                 'user_specific_id' => 1,
                 'status' => 1,
                 'created_at' => '2019-05-16 11:07:18',
-                'updated_at' => '2019-08-05 17:31:13',
+                'updated_at' => '2019-08-06 22:19:02',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             1 => 
             array (
@@ -76,6 +77,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-06-19 11:06:31',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             2 => 
             array (
@@ -106,6 +108,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-08-05 16:20:03',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             3 => 
             array (
@@ -136,6 +139,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-08-05 15:20:04',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             4 => 
             array (
@@ -166,6 +170,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-06-19 22:15:55',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             5 => 
             array (
@@ -196,6 +201,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-07-09 18:21:59',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             6 => 
             array (
@@ -226,6 +232,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-07-08 15:01:12',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             7 => 
             array (
@@ -256,6 +263,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-08-02 12:47:47',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             8 => 
             array (
@@ -286,6 +294,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-07-08 15:09:05',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             9 => 
             array (
@@ -316,6 +325,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-07-08 15:13:42',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             10 => 
             array (
@@ -346,6 +356,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-07-08 15:20:37',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             11 => 
             array (
@@ -376,6 +387,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-07-11 10:15:24',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             12 => 
             array (
@@ -406,6 +418,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-07-20 11:00:57',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             13 => 
             array (
@@ -436,6 +449,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-07-16 18:13:23',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             14 => 
             array (
@@ -466,6 +480,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-07-15 16:46:57',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             15 => 
             array (
@@ -496,6 +511,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-08-05 10:35:37',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             16 => 
             array (
@@ -526,6 +542,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-07-24 11:45:37',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             17 => 
             array (
@@ -556,6 +573,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-07-24 12:16:42',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             18 => 
             array (
@@ -586,6 +604,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-07-24 12:02:36',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
             19 => 
             array (
@@ -616,6 +635,7 @@ class FrontendUsersTableSeeder extends Seeder
                 'updated_at' => '2019-07-25 11:55:08',
                 'daysalary_percentage' => '0.0',
                 'bonus_percentage' => 0,
+                'pic_path' => NULL,
             ),
         ));
         
