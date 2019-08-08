@@ -40,6 +40,7 @@ class CreateFrontendUsersTable extends Migration {
 			$table->timestamps();
 			$table->decimal('daysalary_percentage', 3, 1)->default(0.0)->comment('日工资比例');
 			$table->boolean('bonus_percentage')->default(0)->comment('分红比例');
+			$table->string('pic_path', 128)->nullable()->comment('头像');
 			$table->index(['sign','rid'], 'users_sign_rid_index');
 			$table->index(['sign','vip_level'], 'users_sign_vip_level_index');
 			$table->index(['sign','username'], 'users_sign_username_index');

@@ -32,7 +32,7 @@ class CreateLotteryListsTable extends Migration {
 			$table->integer('max_prize_group')->comment('最大奖金组');
 			$table->integer('min_times');
 			$table->integer('max_times');
-			$table->decimal('max_bonus', 15, 4)->nullable();
+			$table->decimal('max_profit_bonus', 15, 4)->nullable();
 			$table->string('valid_modes', 32);
 			$table->boolean('status')->default(0)->comment('状态 0关闭 1开启');
 			$table->string('icon_path', 128)->nullable();

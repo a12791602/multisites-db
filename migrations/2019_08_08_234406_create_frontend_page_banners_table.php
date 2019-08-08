@@ -27,6 +27,7 @@ class CreateFrontendPageBannersTable extends Migration {
 			$table->dateTime('end_time')->nullable()->comment('结束时间');
 			$table->integer('sort')->unsigned()->nullable()->comment('排序');
 			$table->timestamps();
+			$table->boolean('flag')->comment('banner 属于哪端,1:网页端banner ,2:手机端banner');
 		});
 	}
 

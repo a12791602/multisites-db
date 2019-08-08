@@ -14,7 +14,7 @@ class CreateFrontendUsersAccountsTypesParamsTable extends Migration {
 	{
 		Schema::create('frontend_users_accounts_types_params', function(Blueprint $table)
 		{
-			$table->integer('id')->primary();
+			$table->integer('id', true);
 			$table->string('label', 32)->nullable();
 			$table->string('param', 32)->nullable();
 			$table->timestamps();

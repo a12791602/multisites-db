@@ -29,6 +29,7 @@ class CreateFrontendActivityContentsTable extends Migration {
 			$table->boolean('is_time_interval')->nullable()->comment('是否有期限  0永久 1有限');
 			$table->integer('sort')->comment('排序');
 			$table->timestamps();
+			$table->boolean('type')->comment('活动 属于哪端,1:网页端活动 ,2:手机端，3:全部展示');
 		});
 	}
 

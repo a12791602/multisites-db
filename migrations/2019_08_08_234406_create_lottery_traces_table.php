@@ -50,7 +50,7 @@ class CreateLotteryTracesTable extends Migration {
 			$table->char('ip', 15);
 			$table->string('proxy_ip', 200);
 			$table->boolean('bet_from')->default(1);
-			$table->boolean('status')->default(0)->comment('0 正在追号  1追号完成   2玩家撤销  4系统撤销');
+			$table->boolean('status')->default(0)->comment('0 正在追号  1追号完成   2中奖停止  4系统撤销  5玩家撤销');
 			$table->boolean('finished_status')->default(0);
 			$table->timestamps();
 		});
