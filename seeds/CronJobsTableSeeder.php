@@ -34,7 +34,7 @@ class CronJobsTableSeeder extends Seeder
                 'command' => 'LotterySchedule',
                 'param' => '{"lottery_sign":"zx1fc"}',
                 'schedule' => '*/1 * * * *',
-                'status' => 1,
+                'status' => 0,
                 'remarks' => '中兴1分彩->自动开奖任务',
                 'created_at' => NULL,
                 'updated_at' => NULL,

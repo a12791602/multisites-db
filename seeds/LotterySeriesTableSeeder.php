@@ -43,7 +43,7 @@ class LotterySeriesTableSeeder extends Seeder
                 'series_name' => 'k3',
                 'title' => '快三',
                 'status' => 1,
-                'encode_splitter' => ' ',
+                'encode_splitter' => NULL,
                 'updated_at' => NULL,
                 'created_at' => NULL,
             ),

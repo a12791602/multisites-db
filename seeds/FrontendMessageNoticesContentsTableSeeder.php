@@ -87,6 +87,20 @@ class FrontendMessageNoticesContentsTableSeeder extends Seeder
                 'created_at' => '2019-08-01 15:53:57',
                 'updated_at' => '2019-08-03 11:06:54',
             ),
+            5 => 
+            array (
+                'id' => 32,
+                'operate_admin_id' => 24,
+                'operate_admin_name' => 'Ling',
+                'type' => 2,
+                'title' => '测试测试测',
+                'content' => '<p>测试测试测测试测试测测试测试测</p>',
+                'start_time' => NULL,
+                'end_time' => NULL,
+                'pic_path' => NULL,
+                'created_at' => '2019-08-08 19:56:07',
+                'updated_at' => '2019-08-08 19:56:07',
+            ),
         ));
         
         

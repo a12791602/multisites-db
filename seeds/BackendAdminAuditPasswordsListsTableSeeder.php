@@ -1282,6 +1282,39 @@ class BackendAdminAuditPasswordsListsTableSeeder extends Seeder
                 'created_at' => '2019-07-25 15:26:09',
                 'updated_at' => '2019-07-25 15:26:09',
             ),
+            115 => 
+            array (
+                'id' => 116,
+                'type' => 2,
+                'user_id' => 3,
+                'audit_data' => '$2y$10$QTRQFY/QxhyFaQBVZJT5k.5KDvRzA3nP8N9gKFh4RdtJvZ9hAZZUu',
+                'status' => 0,
+                'audit_flow_id' => 275,
+                'created_at' => '2019-08-07 15:55:12',
+                'updated_at' => '2019-08-07 15:55:12',
+            ),
+            116 => 
+            array (
+                'id' => 117,
+                'type' => 1,
+                'user_id' => 3,
+                'audit_data' => '$2y$10$KqGMjBs9DGwZIf0PUhJsde4ijr0emqs3bryctl1YYRrFTJvkXVL/.',
+                'status' => 2,
+                'audit_flow_id' => 276,
+                'created_at' => '2019-08-07 15:55:22',
+                'updated_at' => '2019-08-07 17:06:53',
+            ),
+            117 => 
+            array (
+                'id' => 118,
+                'type' => 1,
+                'user_id' => 21,
+                'audit_data' => '$2y$10$SPGPEQZq/EHbMQJi1SlPKOF.HAgUnLHHqt3FoVddzQ9eJQ.1UJPHi',
+                'status' => 0,
+                'audit_flow_id' => 277,
+                'created_at' => '2019-08-07 17:04:41',
+                'updated_at' => '2019-08-07 17:04:41',
+            ),
         ));
         
         

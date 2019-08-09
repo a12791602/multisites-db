@@ -134,7 +134,7 @@ class FrontendAllocatedModelsTableSeeder extends Seeder
                 'status' => 1,
                 'level' => 3,
                 'is_homepage_display' => 1,
-                'updated_at' => '2019-06-07 15:37:13',
+                'updated_at' => '2019-08-08 14:40:13',
                 'created_at' => '2019-06-03 14:26:32',
             ),
             8 => 
@@ -346,21 +346,6 @@ class FrontendAllocatedModelsTableSeeder extends Seeder
                 'is_homepage_display' => NULL,
                 'updated_at' => '2019-08-01 15:23:22',
                 'created_at' => '2019-08-01 15:23:22',
-            ),
-            22 => 
-            array (
-                'id' => 31,
-                'label' => '测试',
-                'en_name' => 'test',
-                'pid' => 0,
-                'type' => 1,
-                'value' => NULL,
-                'show_num' => NULL,
-                'status' => NULL,
-                'level' => 1,
-                'is_homepage_display' => NULL,
-                'updated_at' => '2019-08-01 17:12:54',
-                'created_at' => '2019-08-01 17:12:54',
             ),
         ));
         

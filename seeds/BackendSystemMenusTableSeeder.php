@@ -893,10 +893,10 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'route' => '/operasyon/nav-two',
                 'pid' => 103,
                 'icon' => NULL,
-                'display' => 1,
+                'display' => 0,
                 'level' => 3,
                 'sort' => 2,
-                'updated_at' => '2019-07-11 18:33:21',
+                'updated_at' => '2019-08-06 17:47:58',
                 'created_at' => '2019-05-17 11:09:45',
             ),
             63 => 

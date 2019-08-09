@@ -3579,6 +3579,45 @@ class BackendAdminAuditFlowListsTableSeeder extends Seeder
                     'auditor_name' => NULL,
                     'username' => 'diana222',
                 ),
+                274 => 
+                array (
+                    'id' => 275,
+                    'admin_id' => 43,
+                    'auditor_id' => NULL,
+                    'apply_note' => 'ceshi',
+                    'auditor_note' => NULL,
+                    'created_at' => '2019-08-07 15:55:12',
+                    'updated_at' => '2019-08-07 15:55:12',
+                    'admin_name' => 'max1111',
+                    'auditor_name' => NULL,
+                    'username' => 'kiki',
+                ),
+                275 => 
+                array (
+                    'id' => 276,
+                    'admin_id' => 43,
+                    'auditor_id' => 43,
+                    'apply_note' => 'ceshi',
+                    'auditor_note' => '审核人已确认',
+                    'created_at' => '2019-08-07 15:55:22',
+                    'updated_at' => '2019-08-07 17:06:53',
+                    'admin_name' => 'max1111',
+                    'auditor_name' => 'max1111',
+                    'username' => 'kiki',
+                ),
+                276 => 
+                array (
+                    'id' => 277,
+                    'admin_id' => 24,
+                    'auditor_id' => NULL,
+                    'apply_note' => '111111',
+                    'auditor_note' => NULL,
+                    'created_at' => '2019-08-07 17:04:41',
+                    'updated_at' => '2019-08-07 17:04:41',
+                    'admin_name' => 'Ling',
+                    'auditor_name' => NULL,
+                    'username' => 'jeff',
+                ),
             ));
         
         

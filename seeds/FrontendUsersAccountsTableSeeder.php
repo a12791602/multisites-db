@@ -21,11 +21,11 @@ class FrontendUsersAccountsTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'user_id' => 1,
-                'balance' => '1002891321.3031',
-                'frozen' => '772597.6100',
+                'balance' => '1002891562.4921',
+                'frozen' => '773050.0100',
                 'status' => 1,
                 'created_at' => '2019-05-16 11:07:18',
-                'updated_at' => '2019-08-05 19:51:16',
+                'updated_at' => '2019-08-08 23:15:34',
             ),
             1 => 
             array (
@@ -41,11 +41,11 @@ class FrontendUsersAccountsTableSeeder extends Seeder
             array (
                 'id' => 3,
                 'user_id' => 3,
-                'balance' => '5213773.5904',
-                'frozen' => '246362.3900',
+                'balance' => '16151545.4076',
+                'frozen' => '487.8000',
                 'status' => 1,
                 'created_at' => '2019-06-19 22:07:40',
-                'updated_at' => '2019-08-05 18:08:09',
+                'updated_at' => '2019-08-08 18:15:16',
             ),
             3 => 
             array (
@@ -171,11 +171,11 @@ class FrontendUsersAccountsTableSeeder extends Seeder
             array (
                 'id' => 16,
                 'user_id' => 16,
-                'balance' => '89911.9578',
-                'frozen' => '92.7000',
+                'balance' => '89730.1606',
+                'frozen' => '273.9000',
                 'status' => 1,
                 'created_at' => '2019-07-15 16:57:01',
-                'updated_at' => '2019-08-05 22:09:47',
+                'updated_at' => '2019-08-08 22:29:52',
             ),
             16 => 
             array (
@@ -216,6 +216,16 @@ class FrontendUsersAccountsTableSeeder extends Seeder
                 'status' => 1,
                 'created_at' => '2019-07-25 11:55:08',
                 'updated_at' => '2019-07-25 11:55:08',
+            ),
+            20 => 
+            array (
+                'id' => 21,
+                'user_id' => 21,
+                'balance' => '5518.0000',
+                'frozen' => '0.0000',
+                'status' => 1,
+                'created_at' => '2019-08-07 15:43:10',
+                'updated_at' => '2019-08-07 18:04:02',
             ),
         ));
         
