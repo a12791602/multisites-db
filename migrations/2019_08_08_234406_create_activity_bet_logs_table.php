@@ -5,6 +5,8 @@ use Illuminate\Database\Schema\Blueprint;
 
 class CreateActivityBetLogsTable extends Migration {
 
+
+
 	/**
 	 * Run the migrations.
 	 *
