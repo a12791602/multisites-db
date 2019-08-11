@@ -36,8 +36,8 @@ class CreateUsersWithdrawHistoriesTable extends Migration {
 			$table->boolean('status')->default(0);
 			$table->integer('admin_id')->default(0)->comment('管理员id （backend_admin_users表id）');
 			$table->timestamps();
-			$table->index(['user_id','request_time'], 'user_withdraw_user_id_request_time_index');
 			$table->index(['user_id','process_time'], 'user_withdraw_user_id_process_time_index');
+			$table->index(['user_id','request_time'], 'user_withdraw_user_id_request_time_index');
 		});
 	}
 

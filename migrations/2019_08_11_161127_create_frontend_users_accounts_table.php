@@ -20,8 +20,8 @@ class CreateFrontendUsersAccountsTable extends Migration {
 			$table->decimal('frozen', 18, 4)->unsigned()->default(0.0000)->comment('冻结资金');
 			$table->boolean('status')->default(0)->comment('状态 0关闭 1开启');
 			$table->timestamps();
-			$table->index(['user_id','frozen'], 'user_accounts_user_id_frozen_index');
 			$table->index(['user_id','balance'], 'user_accounts_user_id_balance_index');
+			$table->index(['user_id','frozen'], 'user_accounts_user_id_frozen_index');
 		});
 	}
 

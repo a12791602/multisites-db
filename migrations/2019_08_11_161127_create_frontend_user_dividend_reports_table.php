@@ -40,8 +40,8 @@ class CreateFrontendUserDividendReportsTable extends Migration {
 			$table->integer('verify_time')->default(0);
 			$table->boolean('speed')->default(0);
 			$table->timestamps();
-			$table->index(['user_id','verify_time'], 'user_dividend_report_user_id_verify_time_index');
 			$table->index(['from_id','verify_time'], 'user_dividend_report_from_id_verify_time_index');
+			$table->index(['user_id','verify_time'], 'user_dividend_report_user_id_verify_time_index');
 		});
 	}
 

@@ -41,12 +41,12 @@ class CreateFrontendUsersAccountsReportsTable extends Migration {
 			$table->integer('process_time')->default(0);
 			$table->string('desc', 256);
 			$table->timestamps();
-			$table->index(['sign','process_time'], 'account_change_report_sign_process_time_index');
 			$table->index(['user_id','type_sign','process_time'], 'account_change_report_user_id_type_sign_process_time_index');
+			$table->index(['sign','type_sign','process_time'], 'account_change_report_sign_type_sign_process_time_index');
+			$table->index(['sign','project_id'], 'account_change_report_sign_project_id_day_index');
+			$table->index(['sign','process_time'], 'account_change_report_sign_process_time_index');
 			$table->index(['sign','lottery_id','method_id'], 'account_change_report_sign_lottery_id_method_id_index');
 			$table->index(['sign','user_id','process_time'], 'account_change_report_sign_user_id_process_time_index');
-			$table->index(['sign','project_id'], 'account_change_report_sign_project_id_day_index');
-			$table->index(['sign','type_sign','process_time'], 'account_change_report_sign_type_sign_process_time_index');
 			$table->index(['sign','issue','project_id'], 'account_change_report_sign_issue_project_id_index');
 		});
 	}

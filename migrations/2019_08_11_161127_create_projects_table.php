@@ -51,14 +51,14 @@ class CreateProjectsTable extends Migration {
 			$table->boolean('status_input')->default(0);
 			$table->boolean('status_count')->default(0);
 			$table->boolean('status_prize')->default(0);
-			$table->boolean('status_point')->default(0);
+			$table->boolean('status_commission')->default(0);
 			$table->boolean('status_trace')->default(0);
 			$table->boolean('status_stat')->default(0);
 			$table->integer('time_bought')->default(0);
 			$table->integer('time_input')->default(0);
 			$table->integer('time_count')->default(0);
 			$table->integer('time_prize')->default(0)->comment('派奖时间');
-			$table->integer('time_point')->default(0);
+			$table->integer('commission_time')->default(0);
 			$table->integer('time_trace')->default(0);
 			$table->integer('time_cancel')->default(0);
 			$table->integer('time_stat')->default(0);

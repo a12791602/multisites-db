@@ -25,8 +25,8 @@ class CreateUsersSalaryConfigsTable extends Migration {
 			$table->text('contract', 65535);
 			$table->boolean('status')->default(1);
 			$table->timestamps();
-			$table->index(['top_id','parent_id','user_id'], 'user_salary_config_top_id_parent_id_user_id_index');
 			$table->index(['sign','user_id'], 'user_salary_config_sign_user_id_index');
+			$table->index(['top_id','parent_id','user_id'], 'user_salary_config_top_id_parent_id_user_id_index');
 		});
 	}
 
