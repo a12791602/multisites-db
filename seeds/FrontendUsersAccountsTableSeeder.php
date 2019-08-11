@@ -21,11 +21,11 @@ class FrontendUsersAccountsTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'user_id' => 1,
-                'balance' => '1002891562.4921',
-                'frozen' => '773050.0100',
+                'balance' => '1002889628.1241',
+                'frozen' => '777188.1900',
                 'status' => 1,
                 'created_at' => '2019-05-16 11:07:18',
-                'updated_at' => '2019-08-08 23:15:34',
+                'updated_at' => '2019-08-10 23:16:32',
             ),
             1 => 
             array (
@@ -41,11 +41,11 @@ class FrontendUsersAccountsTableSeeder extends Seeder
             array (
                 'id' => 3,
                 'user_id' => 3,
-                'balance' => '16151545.4076',
-                'frozen' => '487.8000',
+                'balance' => '16600220.4115',
+                'frozen' => '277005.1800',
                 'status' => 1,
                 'created_at' => '2019-06-19 22:07:40',
-                'updated_at' => '2019-08-08 18:15:16',
+                'updated_at' => '2019-08-10 18:33:02',
             ),
             3 => 
             array (
@@ -171,11 +171,11 @@ class FrontendUsersAccountsTableSeeder extends Seeder
             array (
                 'id' => 16,
                 'user_id' => 16,
-                'balance' => '89730.1606',
-                'frozen' => '273.9000',
+                'balance' => '87485.0018',
+                'frozen' => '2497.1600',
                 'status' => 1,
                 'created_at' => '2019-07-15 16:57:01',
-                'updated_at' => '2019-08-08 22:29:52',
+                'updated_at' => '2019-08-10 22:20:07',
             ),
             16 => 
             array (

@@ -118,12 +118,12 @@ class LotteryListsTableSeeder extends Seeder
                 'max_prize_group' => 1990,
                 'min_times' => 1,
                 'max_times' => 1960,
-                'max_profit_bonus' => NULL,
+                'max_profit_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
                 'status' => 1,
                 'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/bc5c9ff3bfb4e1abbf20f82ddc6b1759.png',
                 'created_at' => NULL,
-                'updated_at' => '2019-08-02 11:27:18',
+                'updated_at' => '2019-08-09 10:49:43',
             ),
             4 => 
             array (
@@ -579,10 +579,10 @@ class LotteryListsTableSeeder extends Seeder
                 'max_times' => 1930,
                 'max_profit_bonus' => NULL,
                 'valid_modes' => '1,2,3',
-                'status' => 0,
+                'status' => 1,
                 'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/bf4100346e2764908bb68bbb052bf588.png',
                 'created_at' => NULL,
-                'updated_at' => '2019-08-02 11:34:01',
+                'updated_at' => '2019-08-10 15:03:40',
             ),
             21 => 
             array (
@@ -714,10 +714,10 @@ class LotteryListsTableSeeder extends Seeder
                 'max_times' => 2000,
                 'max_profit_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
-                'status' => 0,
+                'status' => 1,
                 'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/41948e664f081dfb00b16d0a217274f5.png',
                 'created_at' => '2019-08-06 23:46:16',
-                'updated_at' => '2019-08-08 17:37:29',
+                'updated_at' => '2019-08-09 15:57:48',
             ),
             26 => 
             array (
@@ -741,10 +741,10 @@ class LotteryListsTableSeeder extends Seeder
                 'max_times' => 2000,
                 'max_profit_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
-                'status' => 0,
+                'status' => 1,
                 'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/17c71f1f0990f69f473ca9f99b6a4339.png',
                 'created_at' => '2019-08-06 23:48:48',
-                'updated_at' => '2019-08-08 17:38:25',
+                'updated_at' => '2019-08-09 15:57:47',
             ),
             27 => 
             array (
@@ -768,10 +768,10 @@ class LotteryListsTableSeeder extends Seeder
                 'max_times' => 2000,
                 'max_profit_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
-                'status' => 0,
+                'status' => 1,
                 'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/a2f7fe3596fd39bb9e9980936ca5c888.png',
                 'created_at' => '2019-08-06 23:52:27',
-                'updated_at' => '2019-08-08 17:38:11',
+                'updated_at' => '2019-08-09 15:57:48',
             ),
             28 => 
             array (
@@ -795,10 +795,10 @@ class LotteryListsTableSeeder extends Seeder
                 'max_times' => 2000,
                 'max_profit_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
-                'status' => 0,
+                'status' => 1,
                 'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/823a29c335fa59f71da5217ca3e6912b.png',
                 'created_at' => '2019-08-06 23:55:09',
-                'updated_at' => '2019-08-08 17:38:43',
+                'updated_at' => '2019-08-09 15:57:49',
             ),
             29 => 
             array (
@@ -822,10 +822,10 @@ class LotteryListsTableSeeder extends Seeder
                 'max_times' => 2000,
                 'max_profit_bonus' => '350000.0000',
                 'valid_modes' => '1,2,3',
-                'status' => 0,
+                'status' => 1,
                 'icon_path' => '/uploaded_files/aa_1/lottery_aa_1/4de3129123a09b810e4c27dc4047e7fa.png',
                 'created_at' => '2019-08-06 23:57:40',
-                'updated_at' => '2019-08-08 17:39:07',
+                'updated_at' => '2019-08-09 15:57:49',
             ),
             30 => 
             array (

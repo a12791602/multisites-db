@@ -329,6 +329,32 @@ class FrontendUsersAccountsTypesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => '2019-06-29 14:37:28',
             ),
+            24 => 
+            array (
+                'id' => 26,
+                'name' => '投注返点',
+                'sign' => 'bet_commission',
+                'in_out' => 1,
+                'param' => '1,2,3,4,6',
+                'frozen_type' => 0,
+                'activity_sign' => 0,
+                'admin_id' => 0,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            25 => 
+            array (
+                'id' => 27,
+                'name' => '下级投注反佣',
+                'sign' => 'commission',
+                'in_out' => 1,
+                'param' => '1,2,3,4,6',
+                'frozen_type' => 0,
+                'activity_sign' => 0,
+                'admin_id' => 0,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
         ));
         
         

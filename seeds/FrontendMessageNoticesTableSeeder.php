@@ -157,9 +157,9 @@ class FrontendMessageNoticesTableSeeder extends Seeder
                 'id' => 32,
                 'receive_user_id' => 16,
                 'notices_content_id' => 2,
-                'status' => 0,
+                'status' => 1,
                 'created_at' => '2019-07-22 19:54:24',
-                'updated_at' => '2019-07-22 19:54:24',
+                'updated_at' => '2019-08-10 00:57:47',
             ),
             16 => 
             array (
@@ -886,9 +886,9 @@ class FrontendMessageNoticesTableSeeder extends Seeder
                 'id' => 613,
                 'receive_user_id' => 1,
                 'notices_content_id' => 32,
-                'status' => 0,
+                'status' => 1,
                 'created_at' => '2019-08-08 19:56:08',
-                'updated_at' => '2019-08-08 19:56:08',
+                'updated_at' => '2019-08-08 23:30:19',
             ),
             97 => 
             array (
@@ -904,9 +904,9 @@ class FrontendMessageNoticesTableSeeder extends Seeder
                 'id' => 615,
                 'receive_user_id' => 3,
                 'notices_content_id' => 32,
-                'status' => 0,
+                'status' => 1,
                 'created_at' => '2019-08-08 19:56:08',
-                'updated_at' => '2019-08-08 19:56:08',
+                'updated_at' => '2019-08-09 11:02:43',
             ),
             99 => 
             array (
@@ -1021,9 +1021,9 @@ class FrontendMessageNoticesTableSeeder extends Seeder
                 'id' => 628,
                 'receive_user_id' => 16,
                 'notices_content_id' => 32,
-                'status' => 0,
+                'status' => 1,
                 'created_at' => '2019-08-08 19:56:08',
-                'updated_at' => '2019-08-08 19:56:08',
+                'updated_at' => '2019-08-10 00:57:32',
             ),
             112 => 
             array (
@@ -1069,6 +1069,195 @@ class FrontendMessageNoticesTableSeeder extends Seeder
                 'status' => 0,
                 'created_at' => '2019-08-08 19:56:08',
                 'updated_at' => '2019-08-08 19:56:08',
+            ),
+            117 => 
+            array (
+                'id' => 634,
+                'receive_user_id' => 1,
+                'notices_content_id' => 33,
+                'status' => 1,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 15:21:45',
+            ),
+            118 => 
+            array (
+                'id' => 635,
+                'receive_user_id' => 2,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
+            ),
+            119 => 
+            array (
+                'id' => 636,
+                'receive_user_id' => 3,
+                'notices_content_id' => 33,
+                'status' => 1,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 15:21:54',
+            ),
+            120 => 
+            array (
+                'id' => 637,
+                'receive_user_id' => 4,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
+            ),
+            121 => 
+            array (
+                'id' => 638,
+                'receive_user_id' => 5,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
+            ),
+            122 => 
+            array (
+                'id' => 639,
+                'receive_user_id' => 6,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
+            ),
+            123 => 
+            array (
+                'id' => 640,
+                'receive_user_id' => 7,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
+            ),
+            124 => 
+            array (
+                'id' => 641,
+                'receive_user_id' => 8,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
+            ),
+            125 => 
+            array (
+                'id' => 642,
+                'receive_user_id' => 9,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
+            ),
+            126 => 
+            array (
+                'id' => 643,
+                'receive_user_id' => 10,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
+            ),
+            127 => 
+            array (
+                'id' => 644,
+                'receive_user_id' => 11,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
+            ),
+            128 => 
+            array (
+                'id' => 645,
+                'receive_user_id' => 12,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
+            ),
+            129 => 
+            array (
+                'id' => 646,
+                'receive_user_id' => 13,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
+            ),
+            130 => 
+            array (
+                'id' => 647,
+                'receive_user_id' => 14,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
+            ),
+            131 => 
+            array (
+                'id' => 648,
+                'receive_user_id' => 15,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
+            ),
+            132 => 
+            array (
+                'id' => 649,
+                'receive_user_id' => 16,
+                'notices_content_id' => 33,
+                'status' => 1,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-10 00:57:29',
+            ),
+            133 => 
+            array (
+                'id' => 650,
+                'receive_user_id' => 17,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
+            ),
+            134 => 
+            array (
+                'id' => 651,
+                'receive_user_id' => 18,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
+            ),
+            135 => 
+            array (
+                'id' => 652,
+                'receive_user_id' => 19,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
+            ),
+            136 => 
+            array (
+                'id' => 653,
+                'receive_user_id' => 20,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
+            ),
+            137 => 
+            array (
+                'id' => 654,
+                'receive_user_id' => 21,
+                'notices_content_id' => 33,
+                'status' => 0,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
             ),
         ));
         

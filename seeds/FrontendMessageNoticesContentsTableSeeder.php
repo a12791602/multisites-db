@@ -80,12 +80,12 @@ class FrontendMessageNoticesContentsTableSeeder extends Seeder
                 'operate_admin_name' => 'Ling',
                 'type' => 1,
                 'title' => '第二条公告第二条公告第二条公告第',
-                'content' => '<p><img src="/uploaded_files/aa_1/notice_aa_1/3066bcc197a853753d2676be4b6db5a6.png" width="100%"/>123</p>',
+                'content' => '<p>ddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsa<br/>ddsasdasda123wdadsaddsasdasda123wdadsaddsasdasda123wdadsa</p><p><br/></p><p><br/></p><p>ddsasdasda123wdadsa</p>',
                 'start_time' => '2019-08-01 15:53:52',
                 'end_time' => '2019-08-01 15:53:55',
                 'pic_path' => '/uploaded_files/aa_1/notice_aa_1/3066bcc197a853753d2676be4b6db5a6.png',
                 'created_at' => '2019-08-01 15:53:57',
-                'updated_at' => '2019-08-03 11:06:54',
+                'updated_at' => '2019-08-10 11:34:37',
             ),
             5 => 
             array (
@@ -100,6 +100,20 @@ class FrontendMessageNoticesContentsTableSeeder extends Seeder
                 'pic_path' => NULL,
                 'created_at' => '2019-08-08 19:56:07',
                 'updated_at' => '2019-08-08 19:56:07',
+            ),
+            6 => 
+            array (
+                'id' => 33,
+                'operate_admin_id' => 43,
+                'operate_admin_name' => 'max1111',
+                'type' => 2,
+                'title' => 'test',
+                'content' => '<p>test</p>',
+                'start_time' => NULL,
+                'end_time' => NULL,
+                'pic_path' => NULL,
+                'created_at' => '2019-08-09 14:20:50',
+                'updated_at' => '2019-08-09 14:20:50',
             ),
         ));
         

@@ -50,6 +50,17 @@ class SystemAddressIpsTableSeeder extends Seeder
                 'created_at' => '2019-07-08 21:03:17',
                 'updated_at' => '2019-07-08 21:03:17',
             ),
+            3 => 
+            array (
+                'id' => 4,
+                'ip' => '103.104.16.186',
+                'country' => '菲律宾',
+                'region' => '马尼拉',
+                'city' => '马尼拉',
+                'county' => NULL,
+                'created_at' => '2019-08-09 17:30:24',
+                'updated_at' => '2019-08-09 17:30:24',
+            ),
         ));
         
         

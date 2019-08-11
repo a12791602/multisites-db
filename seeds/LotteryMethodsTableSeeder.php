@@ -335,10 +335,10 @@ class LotteryMethodsTableSeeder extends Seeder
                 'row_sort' => 0,
                 'method_sort' => 0,
                 'show' => 1,
-                'status' => 0,
+                'status' => 1,
                 'total' => 1000,
                 'created_at' => NULL,
-                'updated_at' => '2019-07-27 16:18:45',
+                'updated_at' => '2019-08-09 15:57:13',
             ),
             17 => 
             array (
@@ -354,10 +354,10 @@ class LotteryMethodsTableSeeder extends Seeder
                 'row_sort' => 0,
                 'method_sort' => 0,
                 'show' => 1,
-                'status' => 0,
+                'status' => 1,
                 'total' => 1000,
                 'created_at' => NULL,
-                'updated_at' => '2019-07-27 16:18:45',
+                'updated_at' => '2019-08-09 15:57:13',
             ),
             18 => 
             array (
@@ -373,10 +373,10 @@ class LotteryMethodsTableSeeder extends Seeder
                 'row_sort' => 0,
                 'method_sort' => 0,
                 'show' => 1,
-                'status' => 0,
+                'status' => 1,
                 'total' => 3000,
                 'created_at' => NULL,
-                'updated_at' => '2019-07-27 16:18:45',
+                'updated_at' => '2019-08-09 15:57:13',
             ),
             19 => 
             array (
@@ -392,10 +392,10 @@ class LotteryMethodsTableSeeder extends Seeder
                 'row_sort' => 0,
                 'method_sort' => 0,
                 'show' => 1,
-                'status' => 0,
+                'status' => 1,
                 'total' => 1000,
                 'created_at' => NULL,
-                'updated_at' => '2019-07-27 16:18:45',
+                'updated_at' => '2019-08-09 15:57:13',
             ),
             20 => 
             array (
@@ -411,10 +411,10 @@ class LotteryMethodsTableSeeder extends Seeder
                 'row_sort' => 0,
                 'method_sort' => 0,
                 'show' => 1,
-                'status' => 0,
+                'status' => 1,
                 'total' => 1000,
                 'created_at' => NULL,
-                'updated_at' => '2019-07-27 16:18:45',
+                'updated_at' => '2019-08-09 15:57:13',
             ),
             21 => 
             array (
@@ -430,10 +430,10 @@ class LotteryMethodsTableSeeder extends Seeder
                 'row_sort' => 0,
                 'method_sort' => 0,
                 'show' => 1,
-                'status' => 0,
+                'status' => 1,
                 'total' => 1000,
                 'created_at' => NULL,
-                'updated_at' => '2019-07-27 16:18:45',
+                'updated_at' => '2019-08-09 15:57:13',
             ),
             22 => 
             array (
@@ -449,10 +449,10 @@ class LotteryMethodsTableSeeder extends Seeder
                 'row_sort' => 0,
                 'method_sort' => 0,
                 'show' => 1,
-                'status' => 0,
+                'status' => 1,
                 'total' => 1000,
                 'created_at' => NULL,
-                'updated_at' => '2019-07-27 16:18:45',
+                'updated_at' => '2019-08-09 15:57:13',
             ),
             23 => 
             array (
@@ -468,10 +468,10 @@ class LotteryMethodsTableSeeder extends Seeder
                 'row_sort' => 0,
                 'method_sort' => 0,
                 'show' => 1,
-                'status' => 0,
+                'status' => 1,
                 'total' => 1000,
                 'created_at' => NULL,
-                'updated_at' => '2019-07-27 16:18:45',
+                'updated_at' => '2019-08-09 15:57:13',
             ),
             24 => 
             array (
@@ -487,10 +487,10 @@ class LotteryMethodsTableSeeder extends Seeder
                 'row_sort' => 0,
                 'method_sort' => 0,
                 'show' => 1,
-                'status' => 0,
+                'status' => 1,
                 'total' => 1000,
                 'created_at' => NULL,
-                'updated_at' => '2019-07-27 16:18:45',
+                'updated_at' => '2019-08-09 15:57:13',
             ),
             25 => 
             array (
@@ -506,10 +506,10 @@ class LotteryMethodsTableSeeder extends Seeder
                 'row_sort' => 0,
                 'method_sort' => 0,
                 'show' => 1,
-                'status' => 0,
+                'status' => 1,
                 'total' => 1000,
                 'created_at' => NULL,
-                'updated_at' => '2019-07-27 16:18:45',
+                'updated_at' => '2019-08-09 15:57:13',
             ),
             26 => 
             array (
@@ -525,10 +525,10 @@ class LotteryMethodsTableSeeder extends Seeder
                 'row_sort' => 0,
                 'method_sort' => 0,
                 'show' => 1,
-                'status' => 0,
+                'status' => 1,
                 'total' => 1000,
                 'created_at' => NULL,
-                'updated_at' => '2019-07-27 16:18:45',
+                'updated_at' => '2019-08-09 15:57:13',
             ),
             27 => 
             array (
@@ -544,10 +544,10 @@ class LotteryMethodsTableSeeder extends Seeder
                 'row_sort' => 0,
                 'method_sort' => 0,
                 'show' => 1,
-                'status' => 0,
+                'status' => 1,
                 'total' => 1000,
                 'created_at' => NULL,
-                'updated_at' => '2019-07-27 16:18:45',
+                'updated_at' => '2019-08-09 15:57:13',
             ),
             28 => 
             array (
@@ -563,10 +563,10 @@ class LotteryMethodsTableSeeder extends Seeder
                 'row_sort' => 0,
                 'method_sort' => 0,
                 'show' => 1,
-                'status' => 0,
+                'status' => 1,
                 'total' => 10,
                 'created_at' => NULL,
-                'updated_at' => '2019-07-27 16:18:45',
+                'updated_at' => '2019-08-09 15:57:14',
             ),
             29 => 
             array (
@@ -582,10 +582,10 @@ class LotteryMethodsTableSeeder extends Seeder
                 'row_sort' => 0,
                 'method_sort' => 0,
                 'show' => 1,
-                'status' => 0,
+                'status' => 1,
                 'total' => 1000,
                 'created_at' => NULL,
-                'updated_at' => '2019-07-27 16:18:45',
+                'updated_at' => '2019-08-09 15:57:14',
             ),
             30 => 
             array (

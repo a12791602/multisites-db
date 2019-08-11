@@ -53,7 +53,7 @@ class LotterySeriesTableSeeder extends Seeder
                 'series_name' => 'sd',
                 'title' => '3D',
                 'status' => 1,
-                'encode_splitter' => ' ',
+                'encode_splitter' => NULL,
                 'updated_at' => NULL,
                 'created_at' => NULL,
             ),

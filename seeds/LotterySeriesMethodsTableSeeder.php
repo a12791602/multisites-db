@@ -1035,7 +1035,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 109,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '直选',
                 'basic_method_id' => 1,
                 'offset' => 0,
@@ -1048,7 +1048,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 110,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '组三',
                 'basic_method_id' => 2,
                 'offset' => 0,
@@ -1061,7 +1061,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 111,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '组六',
                 'basic_method_id' => 3,
                 'offset' => 0,
@@ -1074,7 +1074,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 112,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '3D三星一码不定位',
                 'basic_method_id' => 4,
                 'offset' => 0,
@@ -1087,7 +1087,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 113,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '前二直选',
                 'basic_method_id' => 5,
                 'offset' => 0,
@@ -1100,7 +1100,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 114,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '前二组选',
                 'basic_method_id' => 8,
                 'offset' => 0,
@@ -1113,7 +1113,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 115,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '后二直选',
                 'basic_method_id' => 5,
                 'offset' => -2,
@@ -1126,7 +1126,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 116,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '后二组选',
                 'basic_method_id' => 8,
                 'offset' => -2,
@@ -1139,7 +1139,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 117,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '百位',
                 'basic_method_id' => 6,
                 'offset' => 0,
@@ -1152,7 +1152,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 118,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '十位',
                 'basic_method_id' => 6,
                 'offset' => 1,
@@ -1165,7 +1165,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 119,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '个位',
                 'basic_method_id' => 6,
                 'offset' => 2,
@@ -1347,7 +1347,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 133,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '和尾',
                 'basic_method_id' => 23,
                 'offset' => 0,
@@ -1360,7 +1360,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 134,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '三星豹子',
                 'basic_method_id' => 40,
                 'offset' => 0,
@@ -1373,7 +1373,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 135,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '三星顺子',
                 'basic_method_id' => 39,
                 'offset' => 0,
@@ -1386,7 +1386,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 136,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '三星对子',
                 'basic_method_id' => 38,
                 'offset' => 0,
@@ -1399,7 +1399,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 137,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '3D三星二码不定位',
                 'basic_method_id' => 9,
                 'offset' => 0,
@@ -1412,7 +1412,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 138,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '前二大小单双',
                 'basic_method_id' => 7,
                 'offset' => 0,
@@ -1425,7 +1425,7 @@ class LotterySeriesMethodsTableSeeder extends Seeder
             array (
                 'id' => 139,
                 'series_id_old' => 3,
-                'series_code' => NULL,
+                'series_code' => 'sd',
                 'name' => '后二大小单双',
                 'basic_method_id' => 7,
                 'offset' => -2,

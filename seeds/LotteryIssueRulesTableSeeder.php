@@ -349,9 +349,9 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'adjust_time' => 60,
                 'encode_time' => 0,
                 'issue_count' => 44,
-                'status' => 0,
+                'status' => 1,
                 'created_at' => '2019-04-29 15:22:13',
-                'updated_at' => '2019-08-02 11:34:01',
+                'updated_at' => '2019-08-10 15:03:40',
             ),
             21 => 
             array (
