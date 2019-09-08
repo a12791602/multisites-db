@@ -14,9 +14,9 @@ class BackendAdminRechargePocessAmountsTableSeeder extends Seeder
     {
         
 
-        \DB::table('backend_admin_recharge_pocess_amounts')->delete();
+        \DB::table('backend_admin_recharge_process_amounts')->delete();
         
-        \DB::table('backend_admin_recharge_pocess_amounts')->insert(array (
+        \DB::table('backend_admin_recharge_process_amounts')->insert(array (
             0 => 
             array (
                 'id' => 8,
