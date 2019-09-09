@@ -104,7 +104,7 @@ class FrontendAllocatedModelsTableSeeder extends Seeder
                 'status' => 1,
                 'level' => 2,
                 'is_homepage_display' => 1,
-                'updated_at' => '2019-06-03 14:25:40',
+                'updated_at' => '2019-09-03 16:43:27',
                 'created_at' => '2019-06-03 14:25:40',
             ),
             6 => 
@@ -134,7 +134,7 @@ class FrontendAllocatedModelsTableSeeder extends Seeder
                 'status' => 1,
                 'level' => 3,
                 'is_homepage_display' => 1,
-                'updated_at' => '2019-08-08 14:40:13',
+                'updated_at' => '2019-09-03 16:22:03',
                 'created_at' => '2019-06-03 14:26:32',
             ),
             8 => 
@@ -144,12 +144,12 @@ class FrontendAllocatedModelsTableSeeder extends Seeder
                 'en_name' => 'qr.code',
                 'pid' => 14,
                 'type' => 1,
-                'value' => '/uploaded_files/aa_1/qr.code_aa_1/ade9900dea626c7e8c4e89bbb92ac21c.jpg',
+                'value' => '/uploaded_files/aa_1/qr.code/427d4eb50ed1a6e7854219b9b3309d75.png',
                 'show_num' => NULL,
                 'status' => 1,
                 'level' => 3,
                 'is_homepage_display' => 1,
-                'updated_at' => '2019-08-02 15:53:41',
+                'updated_at' => '2019-09-03 16:57:11',
                 'created_at' => '2019-06-03 14:26:52',
             ),
             9 => 
@@ -179,7 +179,7 @@ class FrontendAllocatedModelsTableSeeder extends Seeder
                 'status' => 1,
                 'level' => 3,
                 'is_homepage_display' => 1,
-                'updated_at' => '2019-08-02 11:39:38',
+                'updated_at' => '2019-09-03 17:18:01',
                 'created_at' => '2019-06-03 14:27:59',
             ),
             11 => 
@@ -299,7 +299,7 @@ class FrontendAllocatedModelsTableSeeder extends Seeder
                 'status' => 1,
                 'level' => 3,
                 'is_homepage_display' => 1,
-                'updated_at' => '2019-08-02 11:56:49',
+                'updated_at' => '2019-09-03 17:15:39',
                 'created_at' => '2019-07-23 20:34:37',
             ),
             19 => 

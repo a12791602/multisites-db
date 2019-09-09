@@ -124,20 +124,20 @@ class FrontendUsersHelpCentersTableSeeder extends Seeder
                 'id' => 20,
                 'pid' => 18,
                 'menu' => '1、如何注册？',
-                'content' => NULL,
+                'content' => '<p>如何注册</p>',
                 'status' => 1,
-                'created_at' => '2019-08-13 17:06:08',
-                'updated_at' => '2019-08-13 17:06:08',
+                'created_at' => '2019-08-20 16:40:22',
+                'updated_at' => '2019-08-20 16:40:22',
             ),
             11 => 
             array (
                 'id' => 21,
                 'pid' => 18,
                 'menu' => '2、在彩票网站注册要收费吗？',
-                'content' => NULL,
+            'content' => '<p>if(n&gt;=0)</p><p>&nbsp; &nbsp; &nbsp; &nbsp; abs=n;</p><p>&nbsp; &nbsp; else</p><p>&nbsp; &nbsp; &nbsp; &nbsp; abs=-n;</p>',
                 'status' => 1,
-                'created_at' => '2019-08-13 17:06:23',
-                'updated_at' => '2019-08-13 17:06:23',
+                'created_at' => '2019-09-03 17:44:35',
+                'updated_at' => '2019-09-03 17:44:35',
             ),
             12 => 
             array (
@@ -204,10 +204,20 @@ class FrontendUsersHelpCentersTableSeeder extends Seeder
                 'id' => 28,
                 'pid' => 17,
                 'menu' => '1、如何查询追号记录？',
-                'content' => NULL,
+                'content' => '<p>test</p>',
                 'status' => 1,
-                'created_at' => '2019-08-13 17:08:42',
-                'updated_at' => '2019-08-13 17:08:42',
+                'created_at' => '2019-08-20 16:12:40',
+                'updated_at' => '2019-08-20 16:12:40',
+            ),
+            19 => 
+            array (
+                'id' => 33,
+                'pid' => 32,
+                'menu' => '333',
+                'content' => '<p>12312312312312312312312312312312312312312312323123231232312323123231232312323123231232312323123231232312323123231232312323123231232312323123231232312323123231232312323123231232312323123</p>',
+                'status' => 1,
+                'created_at' => '2019-08-19 16:18:03',
+                'updated_at' => '2019-08-19 16:18:03',
             ),
         ));
         

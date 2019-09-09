@@ -1244,10 +1244,10 @@ class BackendAdminAuditPasswordsListsTableSeeder extends Seeder
                 'type' => 2,
                 'user_id' => 16,
                 'audit_data' => '$2y$10$Z6O7KEkMOsA2kMFMCj9P8OjBaC.Z6cf3zkqvXqDuHqO46Qdb5ahUO',
-                'status' => 0,
+                'status' => 1,
                 'audit_flow_id' => 271,
                 'created_at' => '2019-07-15 16:57:41',
-                'updated_at' => '2019-07-15 16:57:41',
+                'updated_at' => '2019-09-03 11:45:42',
             ),
             112 => 
             array (
@@ -1266,10 +1266,10 @@ class BackendAdminAuditPasswordsListsTableSeeder extends Seeder
                 'type' => 1,
                 'user_id' => 19,
                 'audit_data' => '$2y$10$HAKVqo9uRMMU5iLZuvTwNOunTCoDVh.U5/ntEv9Dgck0T2QzsDCty',
-                'status' => 0,
+                'status' => 1,
                 'audit_flow_id' => 273,
                 'created_at' => '2019-07-24 12:05:14',
-                'updated_at' => '2019-07-24 12:05:14',
+                'updated_at' => '2019-09-03 16:21:18',
             ),
             114 => 
             array (
@@ -1288,10 +1288,10 @@ class BackendAdminAuditPasswordsListsTableSeeder extends Seeder
                 'type' => 2,
                 'user_id' => 3,
                 'audit_data' => '$2y$10$QTRQFY/QxhyFaQBVZJT5k.5KDvRzA3nP8N9gKFh4RdtJvZ9hAZZUu',
-                'status' => 0,
+                'status' => 2,
                 'audit_flow_id' => 275,
                 'created_at' => '2019-08-07 15:55:12',
-                'updated_at' => '2019-08-07 15:55:12',
+                'updated_at' => '2019-09-03 09:20:50',
             ),
             116 => 
             array (
@@ -1314,6 +1314,94 @@ class BackendAdminAuditPasswordsListsTableSeeder extends Seeder
                 'audit_flow_id' => 277,
                 'created_at' => '2019-08-07 17:04:41',
                 'updated_at' => '2019-08-07 17:04:41',
+            ),
+            118 => 
+            array (
+                'id' => 119,
+                'type' => 2,
+                'user_id' => 8,
+                'audit_data' => '$2y$10$xDbpzPpBQme0TwNIN1Y3o.L2Sd/NKt.gfASV5k.YS9HlJfphdXQdy',
+                'status' => 1,
+                'audit_flow_id' => 285,
+                'created_at' => '2019-08-21 14:47:34',
+                'updated_at' => '2019-08-30 17:11:40',
+            ),
+            119 => 
+            array (
+                'id' => 120,
+                'type' => 2,
+                'user_id' => 82,
+                'audit_data' => '$2y$10$2XYIJRdBuAmVEbr0Y3Zfn.SWMundbKR/ipxuug2rUgOr5IOuROnKy',
+                'status' => 1,
+                'audit_flow_id' => 286,
+                'created_at' => '2019-08-30 17:11:28',
+                'updated_at' => '2019-08-30 17:12:08',
+            ),
+            120 => 
+            array (
+                'id' => 121,
+                'type' => 2,
+                'user_id' => 3,
+                'audit_data' => '$2y$10$zae..JJcL8DvDraqMN47huvyLQ9xIrKs3pm4Yil2wT.tmwnJGdjHq',
+                'status' => 1,
+                'audit_flow_id' => 287,
+                'created_at' => '2019-09-03 09:21:02',
+                'updated_at' => '2019-09-03 09:21:20',
+            ),
+            121 => 
+            array (
+                'id' => 122,
+                'type' => 2,
+                'user_id' => 22,
+                'audit_data' => '$2y$10$E19h5N5BkNzNi17D3gKwuOwf3OI9hzEgN0rwkiVyOlJvVKOEKdjIu',
+                'status' => 1,
+                'audit_flow_id' => 288,
+                'created_at' => '2019-09-03 11:04:41',
+                'updated_at' => '2019-09-03 11:05:13',
+            ),
+            122 => 
+            array (
+                'id' => 123,
+                'type' => 2,
+                'user_id' => 16,
+                'audit_data' => '$2y$10$wayXsBG1W97TnzkAEKCAfePYU/IERn1g52cinwntnMwF0e1gS5YGa',
+                'status' => 1,
+                'audit_flow_id' => 289,
+                'created_at' => '2019-09-03 11:46:03',
+                'updated_at' => '2019-09-03 11:46:18',
+            ),
+            123 => 
+            array (
+                'id' => 124,
+                'type' => 2,
+                'user_id' => 93,
+                'audit_data' => '$2y$10$T9LGdouqtkEikEWCs1xcg.PTkoqVShQlFYyD88XVZA/yA07lAr99u',
+                'status' => 0,
+                'audit_flow_id' => 290,
+                'created_at' => '2019-09-03 16:03:01',
+                'updated_at' => '2019-09-03 16:03:01',
+            ),
+            124 => 
+            array (
+                'id' => 125,
+                'type' => 1,
+                'user_id' => 19,
+                'audit_data' => '$2y$10$yIwn4SrbkBnx4fgFjwI0run7eVY84HCAWBAeGg7tRGIHElD/Y1FwO',
+                'status' => 0,
+                'audit_flow_id' => 291,
+                'created_at' => '2019-09-03 16:21:38',
+                'updated_at' => '2019-09-03 16:21:38',
+            ),
+            125 => 
+            array (
+                'id' => 126,
+                'type' => 2,
+                'user_id' => 19,
+                'audit_data' => '$2y$10$ezw8RYv6yYI1Qcd26DA2PedGJEi/dmGPv/g/eZ2FMqbhGPtmRL9gm',
+                'status' => 0,
+                'audit_flow_id' => 292,
+                'created_at' => '2019-09-03 16:21:52',
+                'updated_at' => '2019-09-03 16:21:52',
             ),
         ));
         

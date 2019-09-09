@@ -47,7 +47,7 @@ class FrontendSystemBanksTableSeeder extends Seeder
                 'remarks' => '单日充值总额无上限；无手续费',
                 'allow_user_level' => '1,2,3,4,5,6,7,8,9,10',
                 'created_at' => NULL,
-                'updated_at' => '2019-07-12 16:35:43',
+                'updated_at' => '2019-09-03 14:50:53',
             ),
             2 => 
             array (
@@ -71,7 +71,7 @@ class FrontendSystemBanksTableSeeder extends Seeder
                 'title' => '中国银行',
                 'code' => 'BOC',
                 'pay_type' => 1,
-                'status' => 0,
+                'status' => 1,
                 'min_recharge' => '20.00',
                 'max_recharge' => '20000.00',
                 'min_withdraw' => '100.00',
@@ -79,7 +79,7 @@ class FrontendSystemBanksTableSeeder extends Seeder
                 'remarks' => '单日充值总额无上限；无手续费',
                 'allow_user_level' => '1,2,3,4,5,6,7,8,9,10',
                 'created_at' => NULL,
-                'updated_at' => '2019-07-12 16:35:55',
+                'updated_at' => '2019-09-03 14:52:07',
             ),
             4 => 
             array (

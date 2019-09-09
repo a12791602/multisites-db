@@ -24,7 +24,7 @@ class FrontendLotteryFnfBetableListsTableSeeder extends Seeder
                 'method_id' => 94,
                 'sort' => 2,
                 'created_at' => '2019-06-04 15:01:43',
-                'updated_at' => '2019-08-02 15:44:39',
+                'updated_at' => '2019-08-15 15:51:01',
             ),
             1 => 
             array (
@@ -33,7 +33,7 @@ class FrontendLotteryFnfBetableListsTableSeeder extends Seeder
                 'method_id' => 411,
                 'sort' => 1,
                 'created_at' => '2019-06-04 15:02:27',
-                'updated_at' => '2019-08-02 15:44:26',
+                'updated_at' => '2019-08-15 15:51:01',
             ),
             2 => 
             array (

@@ -1017,6 +1017,126 @@ class FrontendLinksRegisteredUsersTableSeeder extends Seeder
                 'created_at' => '2018-07-06 11:07:09',
                 'updated_at' => '2018-07-06 11:07:09',
             ),
+            100 => 
+            array (
+                'id' => 101,
+                'register_link_id' => 14,
+                'user_id' => 32,
+                'url' => '/register/55e8f6bf',
+                'username' => 'zhangs1',
+                'created_at' => '2019-08-15 20:11:33',
+                'updated_at' => '2019-08-15 20:11:33',
+            ),
+            101 => 
+            array (
+                'id' => 102,
+                'register_link_id' => 17,
+                'user_id' => 35,
+                'url' => '/register/26da8ad7',
+                'username' => 'zzzddd',
+                'created_at' => '2019-08-15 20:51:05',
+                'updated_at' => '2019-08-15 20:51:05',
+            ),
+            102 => 
+            array (
+                'id' => 103,
+                'register_link_id' => 18,
+                'user_id' => 42,
+                'url' => '/register/67b2ada3',
+                'username' => 'ida222',
+                'created_at' => '2019-08-16 11:09:17',
+                'updated_at' => '2019-08-16 11:09:17',
+            ),
+            103 => 
+            array (
+                'id' => 104,
+                'register_link_id' => 20,
+                'user_id' => 44,
+                'url' => '/register/18b5f5d6',
+                'username' => 'max222',
+                'created_at' => '2019-08-16 12:44:24',
+                'updated_at' => '2019-08-16 12:44:24',
+            ),
+            104 => 
+            array (
+                'id' => 105,
+                'register_link_id' => 17,
+                'user_id' => 48,
+                'url' => '/register/26da8ad7',
+                'username' => 'jjjjj11',
+                'created_at' => '2019-08-16 16:25:25',
+                'updated_at' => '2019-08-16 16:25:25',
+            ),
+            105 => 
+            array (
+                'id' => 106,
+                'register_link_id' => 17,
+                'user_id' => 51,
+                'url' => '/register/26da8ad7',
+                'username' => 'jidsd111',
+                'created_at' => '2019-08-16 16:27:35',
+                'updated_at' => '2019-08-16 16:27:35',
+            ),
+            106 => 
+            array (
+                'id' => 107,
+                'register_link_id' => 9,
+                'user_id' => 55,
+                'url' => '/register/96a899fc',
+                'username' => 'w456132',
+                'created_at' => '2019-08-16 21:25:28',
+                'updated_at' => '2019-08-16 21:25:28',
+            ),
+            107 => 
+            array (
+                'id' => 108,
+                'register_link_id' => 9,
+                'user_id' => 58,
+                'url' => '/register/96a899fc',
+                'username' => 'c123456',
+                'created_at' => '2019-08-16 21:30:23',
+                'updated_at' => '2019-08-16 21:30:23',
+            ),
+            108 => 
+            array (
+                'id' => 109,
+                'register_link_id' => 29,
+                'user_id' => 63,
+                'url' => '/register/82138718',
+                'username' => 'zzz25',
+                'created_at' => '2019-08-17 21:32:54',
+                'updated_at' => '2019-08-17 21:32:54',
+            ),
+            109 => 
+            array (
+                'id' => 110,
+                'register_link_id' => 30,
+                'user_id' => 64,
+                'url' => '/register/16fd0af8',
+                'username' => 'zzz26',
+                'created_at' => '2019-08-17 21:34:20',
+                'updated_at' => '2019-08-17 21:34:20',
+            ),
+            110 => 
+            array (
+                'id' => 111,
+                'register_link_id' => 29,
+                'user_id' => 87,
+                'url' => '/register/82138718',
+                'username' => 'maxs123',
+                'created_at' => '2019-08-30 17:32:03',
+                'updated_at' => '2019-08-30 17:32:03',
+            ),
+            111 => 
+            array (
+                'id' => 112,
+                'register_link_id' => 38,
+                'user_id' => 88,
+                'url' => '/register/89a5910f',
+                'username' => 'max11',
+                'created_at' => '2019-08-30 17:44:24',
+                'updated_at' => '2019-08-30 17:44:24',
+            ),
         ));
         
         

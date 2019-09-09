@@ -26,9 +26,9 @@ class FrontendWebRoutesTableSeeder extends Seeder
                 'frontend_model_id' => 10,
                 'title' => '首页logo',
                 'description' => NULL,
-                'is_open' => 1,
+                'is_open' => 0,
                 'created_at' => '2019-06-04 15:39:26',
-                'updated_at' => '2019-07-25 15:15:56',
+                'updated_at' => '2019-08-17 16:01:53',
             ),
             1 => 
             array (
@@ -237,6 +237,71 @@ class FrontendWebRoutesTableSeeder extends Seeder
                 'is_open' => 1,
                 'created_at' => '2019-08-01 15:25:42',
                 'updated_at' => '2019-08-01 15:25:45',
+            ),
+            17 => 
+            array (
+                'id' => 37,
+                'route_name' => 'web-api.register',
+                'controller' => 'App\\Http\\Controllers\\FrontendApi\\FrontendAuthController',
+                'method' => 'register',
+                'frontend_model_id' => 23,
+                'title' => '注册',
+                'description' => NULL,
+                'is_open' => 1,
+                'created_at' => '2019-08-15 17:30:00',
+                'updated_at' => '2019-08-15 17:30:11',
+            ),
+            18 => 
+            array (
+                'id' => 38,
+                'route_name' => 'web-api.HomepageController.get-web-info',
+                'controller' => 'App\\Http\\Controllers\\FrontendApi\\Homepage\\HomepageController',
+                'method' => 'getWebInfo',
+                'frontend_model_id' => 14,
+                'title' => '获取网站基本信息',
+                'description' => NULL,
+                'is_open' => 1,
+                'created_at' => '2019-08-17 15:33:59',
+                'updated_at' => '2019-08-17 15:34:20',
+            ),
+            19 => 
+            array (
+                'id' => 39,
+                'route_name' => 'web-api.HomepageController.get-basic-content',
+                'controller' => 'App\\Http\\Controllers\\FrontendApi\\Homepage\\HomepageController',
+                'method' => 'getBasicContent',
+                'frontend_model_id' => 14,
+                'title' => '获取网站基本内容',
+                'description' => NULL,
+                'is_open' => 1,
+                'created_at' => '2019-08-17 15:34:37',
+                'updated_at' => '2019-08-17 15:35:16',
+            ),
+            20 => 
+            array (
+                'id' => 40,
+                'route_name' => 'web-api.HomepageController.get-popular-game',
+                'controller' => 'App\\Http\\Controllers\\FrontendApi\\Homepage\\HomepageController',
+                'method' => 'getPopularGame',
+                'frontend_model_id' => 14,
+                'title' => '热门游戏',
+                'description' => NULL,
+                'is_open' => 1,
+                'created_at' => '2019-08-17 15:35:03',
+                'updated_at' => '2019-08-17 15:35:16',
+            ),
+            21 => 
+            array (
+                'id' => 45,
+                'route_name' => 'mobile-api.HomepageController.notice',
+                'controller' => 'App\\Http\\Controllers\\MobileApi\\Homepage\\HomepageController',
+                'method' => 'notice',
+                'frontend_model_id' => 10,
+                'title' => '34232',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-08-17 16:04:32',
+                'updated_at' => '2019-08-17 16:04:32',
             ),
         ));
         

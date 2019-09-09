@@ -47,7 +47,7 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'issue_count' => 50,
                 'status' => 1,
                 'created_at' => '2019-04-29 15:22:08',
-                'updated_at' => NULL,
+                'updated_at' => '2019-09-03 10:46:46',
             ),
             2 => 
             array (
@@ -182,16 +182,16 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'id' => 11,
                 'lottery_id' => 'jx115',
                 'lottery_name' => '江西11选5',
-                'begin_time' => '10:00:00',
-                'end_time' => '02:00:00',
+                'begin_time' => '09:10:00',
+                'end_time' => '23:10:00',
                 'issue_seconds' => 1200,
-                'first_time' => '10:20:00',
+                'first_time' => '09:30:00',
                 'adjust_time' => 120,
                 'encode_time' => 60,
                 'issue_count' => 42,
                 'status' => 1,
                 'created_at' => '2019-04-29 15:22:11',
-                'updated_at' => '2019-08-02 11:30:28',
+                'updated_at' => '2019-08-17 14:10:43',
             ),
             11 => 
             array (
@@ -303,7 +303,7 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'issue_count' => 1,
                 'status' => 1,
                 'created_at' => '2019-04-29 15:22:13',
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-18 20:42:51',
             ),
             18 => 
             array (
@@ -357,35 +357,19 @@ class LotteryIssueRulesTableSeeder extends Seeder
             array (
                 'id' => 22,
                 'lottery_id' => 'ftpk10',
-                'lottery_name' => '急速飞艇',
-                'begin_time' => '00:00:00',
-                'end_time' => '00:00:00',
-                'issue_seconds' => 60,
-                'first_time' => '00:01:00',
-                'adjust_time' => 0,
+                'lottery_name' => '幸运飞艇',
+                'begin_time' => '13:04:00',
+                'end_time' => '04:04:00',
+                'issue_seconds' => 300,
+                'first_time' => '13:09:00',
+                'adjust_time' => 60,
                 'encode_time' => 0,
-                'issue_count' => 1440,
+                'issue_count' => 180,
                 'status' => 1,
                 'created_at' => '2019-04-29 15:22:14',
-                'updated_at' => NULL,
+                'updated_at' => '2019-08-18 14:13:41',
             ),
             22 => 
-            array (
-                'id' => 23,
-                'lottery_id' => 'zxpk10',
-                'lottery_name' => '中兴PK10',
-                'begin_time' => '00:00:00',
-                'end_time' => '00:00:00',
-                'issue_seconds' => 60,
-                'first_time' => '00:01:00',
-                'adjust_time' => 0,
-                'encode_time' => 0,
-                'issue_count' => 1440,
-                'status' => 0,
-                'created_at' => '2019-04-29 15:22:15',
-                'updated_at' => '2019-08-12 18:52:27',
-            ),
-            23 => 
             array (
                 'id' => 57,
                 'lottery_id' => 'ah115',
@@ -401,7 +385,7 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'created_at' => '2019-08-06 23:13:10',
                 'updated_at' => '2019-08-06 23:13:10',
             ),
-            24 => 
+            23 => 
             array (
                 'id' => 59,
                 'lottery_id' => 'tx05fc',
@@ -413,11 +397,11 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'adjust_time' => 0,
                 'encode_time' => 0,
                 'issue_count' => 288,
-                'status' => 0,
+                'status' => 1,
                 'created_at' => '2019-08-06 23:46:17',
-                'updated_at' => '2019-08-06 23:46:17',
+                'updated_at' => '2019-08-16 20:44:59',
             ),
-            25 => 
+            24 => 
             array (
                 'id' => 60,
                 'lottery_id' => 'tx10fc',
@@ -433,7 +417,7 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'created_at' => '2019-08-06 23:48:49',
                 'updated_at' => '2019-08-12 17:44:04',
             ),
-            26 => 
+            25 => 
             array (
                 'id' => 61,
                 'lottery_id' => 'qiqtxffc',
@@ -445,11 +429,11 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'adjust_time' => 0,
                 'encode_time' => 0,
                 'issue_count' => 1440,
-                'status' => 0,
+                'status' => 1,
                 'created_at' => '2019-08-06 23:52:28',
-                'updated_at' => '2019-08-06 23:52:28',
+                'updated_at' => '2019-08-16 20:45:27',
             ),
-            27 => 
+            26 => 
             array (
                 'id' => 62,
                 'lottery_id' => 'duotxffc',
@@ -461,11 +445,11 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'adjust_time' => 0,
                 'encode_time' => 0,
                 'issue_count' => 1440,
-                'status' => 0,
+                'status' => 1,
                 'created_at' => '2019-08-06 23:55:10',
-                'updated_at' => '2019-08-06 23:55:10',
+                'updated_at' => '2019-08-16 20:45:42',
             ),
-            28 => 
+            27 => 
             array (
                 'id' => 63,
                 'lottery_id' => 'wb05fc',
@@ -477,11 +461,11 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'adjust_time' => 90,
                 'encode_time' => 0,
                 'issue_count' => 288,
-                'status' => 0,
+                'status' => 1,
                 'created_at' => '2019-08-06 23:57:41',
-                'updated_at' => '2019-08-06 23:57:41',
+                'updated_at' => '2019-08-19 20:41:03',
             ),
-            29 => 
+            28 => 
             array (
                 'id' => 64,
                 'lottery_id' => 'heb115',
@@ -497,7 +481,7 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'created_at' => '2019-08-07 00:01:58',
                 'updated_at' => '2019-08-07 00:01:58',
             ),
-            30 => 
+            29 => 
             array (
                 'id' => 65,
                 'lottery_id' => 'hb115',
@@ -513,7 +497,7 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'created_at' => '2019-08-07 00:11:36',
                 'updated_at' => '2019-08-07 00:11:36',
             ),
-            31 => 
+            30 => 
             array (
                 'id' => 66,
                 'lottery_id' => 'shx115',
@@ -529,7 +513,7 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'created_at' => '2019-08-07 00:14:18',
                 'updated_at' => '2019-08-07 00:14:18',
             ),
-            32 => 
+            31 => 
             array (
                 'id' => 67,
                 'lottery_id' => 'hbk3',
@@ -545,7 +529,7 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'created_at' => '2019-08-07 00:23:33',
                 'updated_at' => '2019-08-08 17:59:49',
             ),
-            33 => 
+            32 => 
             array (
                 'id' => 68,
                 'lottery_id' => 'nmgk3',
@@ -561,7 +545,7 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'created_at' => '2019-08-07 00:27:14',
                 'updated_at' => '2019-08-08 18:02:26',
             ),
-            34 => 
+            33 => 
             array (
                 'id' => 69,
                 'lottery_id' => 'jxk3',
@@ -577,7 +561,7 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'created_at' => '2019-08-07 00:32:25',
                 'updated_at' => '2019-08-07 00:32:25',
             ),
-            35 => 
+            34 => 
             array (
                 'id' => 72,
                 'lottery_id' => 'zxp3p5',
@@ -593,7 +577,7 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'created_at' => '2019-08-11 20:20:58',
                 'updated_at' => '2019-08-12 12:11:55',
             ),
-            36 => 
+            35 => 
             array (
                 'id' => 73,
                 'lottery_id' => 'shssl',
@@ -609,7 +593,7 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'created_at' => '2019-08-11 22:04:33',
                 'updated_at' => '2019-08-11 22:05:42',
             ),
-            37 => 
+            36 => 
             array (
                 'id' => 74,
                 'lottery_id' => 'zxssl',
@@ -624,6 +608,86 @@ class LotteryIssueRulesTableSeeder extends Seeder
                 'status' => 1,
                 'created_at' => '2019-08-11 22:28:29',
                 'updated_at' => '2019-08-11 22:31:12',
+            ),
+            37 => 
+            array (
+                'id' => 76,
+                'lottery_id' => 'jsft',
+                'lottery_name' => '极速飞艇',
+                'begin_time' => '00:00:00',
+                'end_time' => '00:00:00',
+                'issue_seconds' => 60,
+                'first_time' => '00:01:00',
+                'adjust_time' => 0,
+                'encode_time' => 0,
+                'issue_count' => 1440,
+                'status' => 1,
+                'created_at' => '2019-08-18 14:23:30',
+                'updated_at' => '2019-08-18 14:29:51',
+            ),
+            38 => 
+            array (
+                'id' => 77,
+                'lottery_id' => 'jssc',
+                'lottery_name' => '极速赛车',
+                'begin_time' => '00:00:00',
+                'end_time' => '00:00:00',
+                'issue_seconds' => 60,
+                'first_time' => '00:01:00',
+                'adjust_time' => 0,
+                'encode_time' => 0,
+                'issue_count' => 1440,
+                'status' => 1,
+                'created_at' => '2019-08-18 14:28:28',
+                'updated_at' => '2019-08-19 20:47:53',
+            ),
+            39 => 
+            array (
+                'id' => 79,
+                'lottery_id' => 'alyffc',
+                'lottery_name' => '阿里云分分彩',
+                'begin_time' => '00:00:00',
+                'end_time' => '00:00:00',
+                'issue_seconds' => 60,
+                'first_time' => '00:01:00',
+                'adjust_time' => 0,
+                'encode_time' => 0,
+                'issue_count' => 1440,
+                'status' => 1,
+                'created_at' => '2019-08-20 17:13:14',
+                'updated_at' => '2019-08-20 17:13:14',
+            ),
+            40 => 
+            array (
+                'id' => 80,
+                'lottery_id' => 'txsc',
+                'lottery_name' => '腾讯赛车',
+                'begin_time' => '00:00:00',
+                'end_time' => '00:00:00',
+                'issue_seconds' => 60,
+                'first_time' => '00:01:00',
+                'adjust_time' => 0,
+                'encode_time' => 0,
+                'issue_count' => 1440,
+                'status' => 1,
+                'created_at' => '2019-08-20 18:03:06',
+                'updated_at' => '2019-08-20 18:03:06',
+            ),
+            41 => 
+            array (
+                'id' => 81,
+                'lottery_id' => 'alysc',
+                'lottery_name' => '阿里云赛车',
+                'begin_time' => '00:00:00',
+                'end_time' => '00:00:00',
+                'issue_seconds' => 60,
+                'first_time' => '00:01:00',
+                'adjust_time' => 0,
+                'encode_time' => 0,
+                'issue_count' => 1440,
+                'status' => 1,
+                'created_at' => '2019-08-20 20:06:46',
+                'updated_at' => '2019-08-20 20:06:46',
             ),
         ));
         

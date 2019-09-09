@@ -11,6 +11,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+
         $this->call(ActivityBetLogsTableSeeder::class);
         $this->call(BackendAdminAccessGroupsTableSeeder::class);
         $this->call(BackendAdminAuditFlowListsTableSeeder::class);
@@ -64,5 +65,24 @@ class DatabaseSeeder extends Seeder
         $this->call(LotteryMethodsNumberButtonRulesTableSeeder::class);
         $this->call(LotteryMethodsStandardsTableSeeder::class);
         $this->call(LotteryMethodsValidationsTableSeeder::class);
+        $this->call(LotteryMethodsWaysLevelsTableSeeder::class);
+        $this->call(LotterySeriesTableSeeder::class);
+        $this->call(LotterySeriesMethodsTableSeeder::class);
+        $this->call(LotterySeriesWaysTableSeeder::class);
+        $this->call(SystemAddressIpsTableSeeder::class);
+        $this->call(SystemConfigurationsTableSeeder::class);
+        $this->call(SystemPlatformsTableSeeder::class);
+        $this->call(UserDaysalariesTableSeeder::class);
+        $this->call(UserProfitsTableSeeder::class);
+        $this->call(UserTransferRecordsTableSeeder::class);
+        $this->call(UsersRechargeHistoriesTableSeeder::class);
+        $this->call(UsersRechargeLogsTableSeeder::class);
+        $this->call(UsersRegionsTableSeeder::class);
+        $this->call(UsersSalaryConfigsTableSeeder::class);
+        $this->call(UsersSalaryReportsTableSeeder::class);
+        $this->call(UsersStatDaysTableSeeder::class);
+        $this->call(UsersWithdrawAuditListsTableSeeder::class);
+        $this->call(UsersWithdrawHistoriesTableSeeder::class);
+        $this->call(UsersWithdrawLogsTableSeeder::class);
     }
 }

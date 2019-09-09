@@ -77,7 +77,7 @@ class CronJobsTableSeeder extends Seeder
                 'id' => 7,
                 'command' => 'UserProfits',
                 'param' => NULL,
-                'schedule' => '0 1 * * * ',
+                'schedule' => '*/5 * * * *',
                 'status' => 1,
                 'remarks' => '团队盈亏处理脚本',
                 'created_at' => NULL,
@@ -159,6 +159,61 @@ class CronJobsTableSeeder extends Seeder
                 'remarks' => '中兴时时乐->自动开奖任务',
                 'created_at' => '2019-08-11 22:28:29',
                 'updated_at' => '2019-08-11 22:29:06',
+            ),
+            13 => 
+            array (
+                'id' => 19,
+                'command' => 'LotterySchedule',
+                'param' => '{"lottery_sign":"jsft"}',
+                'schedule' => '*/1 * * * *',
+                'status' => 1,
+                'remarks' => '极速飞艇->自动开奖任务',
+                'created_at' => '2019-08-18 14:23:30',
+                'updated_at' => '2019-08-18 14:32:08',
+            ),
+            14 => 
+            array (
+                'id' => 20,
+                'command' => 'LotterySchedule',
+                'param' => '{"lottery_sign":"jssc"}',
+                'schedule' => '*/1 * * * *',
+                'status' => 1,
+                'remarks' => '极速赛车->自动开奖任务',
+                'created_at' => '2019-08-18 14:28:28',
+                'updated_at' => '2019-08-18 14:32:12',
+            ),
+            15 => 
+            array (
+                'id' => 21,
+                'command' => 'LotterySchedule',
+                'param' => '{"lottery_sign":"alyffc"}',
+                'schedule' => '*/1 * * * *',
+                'status' => 1,
+                'remarks' => '阿里云分分彩==>自动开奖任务',
+                'created_at' => '2019-08-20 17:02:54',
+                'updated_at' => '2019-08-20 17:08:25',
+            ),
+            16 => 
+            array (
+                'id' => 23,
+                'command' => 'LotterySchedule',
+                'param' => '{"lottery_sign":"txsc"}',
+                'schedule' => '*/1 * * * *',
+                'status' => 1,
+                'remarks' => '腾讯赛车->自动开奖任务',
+                'created_at' => '2019-08-20 18:03:06',
+                'updated_at' => '2019-08-20 18:03:50',
+            ),
+            17 => 
+            array (
+                'id' => 24,
+                'command' => 'LotterySchedule',
+                'param' => '{"lottery_sign":"alysc"}',
+                'schedule' => '*/1 * * * *',
+                'status' => 1,
+                'remarks' => '阿里云赛车->自动开奖任务',
+                'created_at' => '2019-08-20 20:06:46',
+                'updated_at' => '2019-08-20 20:08:18',
             ),
         ));
         

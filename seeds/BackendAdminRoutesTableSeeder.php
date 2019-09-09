@@ -2279,6 +2279,71 @@ class BackendAdminRoutesTableSeeder extends Seeder
                 'created_at' => '2019-08-11 20:30:34',
                 'updated_at' => '2019-08-11 20:30:34',
             ),
+            174 => 
+            array (
+                'id' => 199,
+                'route_name' => 'backend-api.lottery-series.detail',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Game\\Lottery\\LotterySeriesContro',
+                'method' => 'detail',
+                'menu_group_id' => 12,
+                'title' => '彩种系列',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-08-22 22:31:39',
+                'updated_at' => '2019-08-31 15:15:40',
+            ),
+            175 => 
+            array (
+                'id' => 200,
+                'route_name' => 'backend-api.lottery-series.add',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Game\\Lottery\\LotterySeriesContro',
+                'method' => 'add',
+                'menu_group_id' => 12,
+                'title' => '彩种系列添加',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-08-22 22:32:01',
+                'updated_at' => '2019-08-22 22:32:01',
+            ),
+            176 => 
+            array (
+                'id' => 201,
+                'route_name' => 'backend-api.lottery-series.edit',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Game\\Lottery\\LotterySeriesContro',
+                'method' => 'edit',
+                'menu_group_id' => 12,
+                'title' => '彩种系列编辑',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-08-22 22:32:13',
+                'updated_at' => '2019-08-22 22:32:13',
+            ),
+            177 => 
+            array (
+                'id' => 202,
+                'route_name' => 'backend-api.lottery-series.delete',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\Game\\Lottery\\LotterySeriesContro',
+                'method' => 'delete',
+                'menu_group_id' => 12,
+                'title' => '彩种系列删除',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-08-22 22:32:28',
+                'updated_at' => '2019-08-22 22:32:28',
+            ),
+            178 => 
+            array (
+                'id' => 203,
+                'route_name' => 'backend-api.partnerAdmin.search-user',
+                'controller' => 'App\\Http\\Controllers\\BackendApi\\BackendAuthController',
+                'method' => 'searchUser',
+                'menu_group_id' => 11,
+                'title' => '管理员查询接口',
+                'description' => NULL,
+                'is_open' => 0,
+                'created_at' => '2019-09-05 21:08:00',
+                'updated_at' => '2019-09-05 21:08:00',
+            ),
         ));
         
         

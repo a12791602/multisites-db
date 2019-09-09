@@ -1053,6 +1053,20 @@ class BackendSystemMenusTableSeeder extends Seeder
                 'updated_at' => '2019-08-11 20:28:51',
                 'created_at' => '2019-08-11 20:28:51',
             ),
+            74 => 
+            array (
+                'id' => 119,
+                'label' => '彩种系列',
+                'en_name' => 'lottery.series',
+                'route' => '/game/lottery-series',
+                'pid' => 12,
+                'icon' => NULL,
+                'display' => 1,
+                'level' => 2,
+                'sort' => 13,
+                'updated_at' => '2019-08-23 10:49:10',
+                'created_at' => '2019-08-22 21:55:44',
+            ),
         ));
         
         
